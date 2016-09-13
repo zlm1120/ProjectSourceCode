@@ -1,0 +1,201 @@
+.Plogo span.carheader {
+	display: inline-block;
+	height: 145px;
+	line-height: 145px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+.Pl-left{
+	background: url(../image/index/第三城科技（标准横式中英文LOGO）.png) no-repeat left center !important;
+}
+
+
+.balancemin{
+	background-color: #ecedf2;
+	height: 750px;
+}
+/*
+ * balancetitle style
+ */
+.mycollectdiv span.balancetitle{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	padding: 20px 0px;
+}
+.mycollectdiv span.balancetitle em{
+	font-family: "微软雅黑";
+	font-style: normal;
+	font-size: 24px;
+	color: #FF0000;
+	padding-left: 10px;
+}
+/*
+ * yuecontent style
+ */
+.mycollectdiv .yuecontent{
+	height: 215px;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+}
+.mycollectdiv .yuecontent span:nth-child(1){
+	display: block;
+	color: #033B5D;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	background: url(../image/矩形-35-拷贝-2.png) no-repeat;
+	height: 40px;
+	line-height: 40px;
+	margin: 20px 0px;
+}
+
+.mycollectdiv .yuecontent label{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+.mycollectdiv .yuecontent div.balancecomment{
+	padding-left: 30px;
+}
+
+/*
+ * choosecard style
+ */
+#choosecard{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#choosecard label{
+	height: 50px;
+	line-height: 50px;
+}
+#choosecard label,
+#choosecard div.Fornow{
+	float: left;
+}
+
+/*
+ * 模拟单选框
+ */
+.Fornow{
+	overflow: hidden;
+	font-family: simsun;
+	width: 329px;
+	height: 50px;
+	background-color: #c4e7fd;
+	line-height: 50px;
+}
+
+.Fornow div{
+	float: right;
+	margin-right: 30px;
+}
+.Fornow div label{
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.Fornow input[type="radio"] {
+	margin: 3px 3px 0px 5px;
+	display: none;
+}
+.Fornow label {
+	padding-left: 20px;
+	cursor: pointer;
+	background: url(../image/Ellipse-2-copy-2-拷贝.png) no-repeat left center;
+	padding-right: 10px;
+}
+.Fornow label.checked {
+	background-position: left bottom;
+	background: url(../image/images/去支付_03.png) no-repeat left center;
+}
+
+em{
+	font-style: normal;
+}
+.Fornow span{
+	display: inline-block;
+	float: right;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	padding-right: 10px;
+}
+.Fornow span span{
+	display: inline-block;
+	width: 54px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #3CB1F7;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-0-border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+/*
+ * 提现金额 style
+ */
+
+/*.mycollectdiv div.balancecomment:nth-child(3){
+	height: 36px;
+}
+.mycollectdiv div.balancecomment:nth-child(3) label{
+	height: 36px;
+	line-height: 36px;
+}
+.mycollectdiv div.balancecomment:nth-child(3) input{
+	width: 123px;
+	height: 34px;
+	outline: none;
+}
+.mycollectdiv div.balancecomment:nth-child(3) em{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	padding-left: 5px;
+}*/
+
+#money{
+	height: 36px;
+}
+#money label{
+	height: 36px;
+	line-height: 36px;
+}
+#money input{
+	width: 123px;
+	height: 34px;
+	outline: none;
+}
+#money em{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	padding-left: 5px;
+}
+
+.mycollectdiv a{
+	display: block;
+	background-color: #F1A400;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+}

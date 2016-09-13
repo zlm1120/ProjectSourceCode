@@ -1,0 +1,323 @@
+.confirmorder{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*父元素*/
+.addressparent{
+	border-bottom: 1px solid  #CCCCCC;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.confirmorder .addressparent:nth-child(2){
+	border-top: 1px solid #CCCCCC;
+}
+
+.addressparent label.confirmordertitle{
+	display: block;
+	width: 66px;
+	border-top: 5px solid #3CB1F7;
+	font-size: 16px;
+	color: #333333;
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+
+/*收货地址*/
+.addreddlable{
+	font-family: simsun;
+	padding-left: 20px;
+	float: left;
+}
+
+.addreddlable div{
+	border-image:url(../image/确认订单_03.png) 10 10;
+	width: 460px;
+	height: 165px;
+	border-image-width: 8px;
+	border-image-repeat: round repeat;
+}
+.addreddlable div span b{
+	font-style: normal;
+	font-weight: normal !important;
+	display: inline-block;
+	margin-left: 180px;
+}
+.addreddlable div span{
+	display: block;
+	color: #333333;
+	font-size: 14px;
+}
+.addreddlable div span:nth-child(2){
+	margin: 27px 0px;
+}
+.addreddlable div span:nth-child(1){
+	margin-top: 11px;
+}
+.addreddlable div span:last-child{
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #959595;
+	color: #FFFFFF;
+	font-size: 14px;
+	float: right;
+	
+}
+
+/*
+ * commoditylist style
+ */
+.commoditylist{
+	margin-top: 15px;
+	margin-left: 50px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+/*
+ * commoditylist listrigth style
+ */
+.commoditylist .listrigth{
+	width: 300px;
+	margin-right: 40px;
+	float: left;
+}
+.commoditylist .listrigth span{
+	display: block;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.commoditylist .listrigth span:nth-child(4){
+	margin-top: 20px;
+}
+.commoditylist .listrigth a{
+	display: inline-block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #999999;
+	width: 146px;
+	height: 37px;
+	text-align: center;
+	border: 1px solid #999999;
+	line-height: 37px;
+}
+.commoditylist .listrigth em{
+	display: block;
+	font-style: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 10px;
+}
+.commoditylist .listrigth em b{
+	float: right;
+	cursor: pointer;
+	color: #3CB1F7;
+	font-weight: normal
+}
+.commoditylist .listrigth em i{
+	color:#666666;
+	font-style: normal;
+}
+/*
+ * commoditylist  listleft style
+ */.listleft{
+ 	float: left;
+ 	width: 610px;
+ 	margin-top: 20px;
+ }
+ .listleft b, .listleft i, .listleft em{
+ 	font-style: normal;
+ 	font-weight: normal;
+ }
+.listleft span{
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+}
+.listleft span i{
+	background: url(../image/Rounded-Rectangle-81-copy.png) no-repeat;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #fff7f7;
+	width: 60px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+}
+.listleft span b{
+	font-family: simsun;
+	font-size: 14px;
+	color: #3CB1F7;
+}
+
+.listleft div.media {
+	width: 325px;
+	font-family: simsun;
+	font-size: 14px;
+	float: left;
+	margin-right: 100px;
+}
+
+.listleft  div.media .media-heading {
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+}
+
+.listleft  div.media span {
+	color: #999999;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.listleft  div.media i {
+	font-style: normal;
+	display: block;
+}
+
+.listleft .orderprice, .listleft .ordernum{
+	float: left;
+	height: 82px;
+	line-height: 82px;
+}
+.listleft .orderprice{
+	margin-right: 104px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #FF0000;
+}
+.listleft .ordernum{
+	font-family: simsun;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.message{
+	margin-left: 50px;
+	height: 42px;
+	line-height: 42px;
+	font-family: simsun;
+	font-size: 14px;
+}
+.message b{
+	color: #666666;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 20px;
+}
+.message input{
+	width: 875px;
+	padding-left: 20px;
+}
+.ordertotal{
+	margin-left: 50px;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+	padding-right: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	/*border-bottom: 1px solid #CCCCCC;*/
+	color: #333333;
+}
+b,i,em{
+	font-style: normal;
+	font-weight: normal;
+}
+.ordertotal b,.ordertotal i, .ordertotal em{
+	font-weight: bold;
+}
+.ordertotal span:last-child em:last-child{
+	font-weight: normal;
+}
+
+.Fornow{
+	overflow: hidden;
+	line-height: 60px;
+	font-family: simsun;
+}
+.Fornow span{
+	display: block;
+	float: left;
+	margin-left: 22px;
+	font-size: 16px;
+	color: #333333
+}
+.Fornow span em{
+	color: #3CB1F7;
+	font-size: 14px;
+}
+.Fornow div{
+	float: right;
+	margin-right: 30px;
+}
+.Fornow div label{
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.Fornow input[type="radio"] {
+	margin: 3px 3px 0px 5px;
+	display: none;
+}
+
+.Fornow label {
+	padding-left: 20px;
+	cursor: pointer;
+	background: url(../image/Ellipse-2-copy-2-拷贝.png) no-repeat left center;
+	padding-right: 10px;
+}
+
+.Fornow label.checked {
+	background-position: left bottom;
+	background: url(../image/images/去支付_03.png) no-repeat left center;
+}
+
+.Submitorders{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+	text-align: right;
+}
+.Submitorders span{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #333333;
+	display: block;
+	margin-top: 13px;
+}
+.Submitorders span:first-child b{
+	color: #FF0000;
+	padding-left: 62px;
+}
+.Submitorders span b:not(.totalprice){
+	padding-left: 80px;
+}
+.Submitorders span:nth-child(5){
+	margin-bottom: 20px;
+	margin-top: 48px !important;
+}
+.Submitorders span:nth-child(5) b{
+	font-weight: bold !important;
+	color: #FF0000 !important;
+	padding-left:45px !important;
+}
+.Submitorders a{
+	display: inline-block;
+	width: 200px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background-color: #F1A400;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 32px;
+}

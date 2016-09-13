@@ -1,0 +1,42 @@
+.leftnavs{
+	overflow: hidden;
+	width:1200px;
+	margin: 0 auto;
+}
+.invitationNav {
+	float: left;
+	width: 200px;
+}
+.invitationNav div ul{
+	padding-top:15px;
+}
+.invitationNav div ul li a{
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+}
+.invitationNav div a{
+    padding-left: 25px;
+}
+.invitationNav div{
+	margin-top: 20px;
+}
+.invitationNav div span{
+	width: 100%;
+}
+.invitationNav .pay span, .invitationNav .collect span, .invitationNav .crowdfunding span{
+	padding-left: 25px !important;
+}
+.invitationNav div span, .invitationNav div span a{
+	color: #666666;
+	font-family:simsun;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+}
+.invitationNav .activecode{
+	border-left: 2px solid #3CB1F7;
+}
+.invitationNav .activecode a{
+	color: #3CB1F7 !important;
+}

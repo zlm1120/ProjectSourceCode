@@ -1,0 +1,136 @@
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.rigthLogo {
+	float: right !important;
+	height: 80px;
+}
+
+.search-box {
+	float: left;
+	overflow: hidden;
+	margin-top: -19px;
+}
+
+.search-box .search-form input[type="text"]{
+	height: 35px;
+	padding-left: 10px;
+	width: 370px;
+	float: left;
+	background-color: #ffffff;
+	color: #999999;
+	font-size: 14px;
+	font-family: simsun;;
+}
+.search-box .search-form input[type="submit"]{
+	height: 33px;
+	background: url(../../img/login/search.png) no-repeat center center;
+	background-position: 17px;
+	text-align: center;
+	width: 100px;
+	cursor: pointer;
+	border: 0px ;	
+	border-left: 1px solid #3CB1F7 !important;
+	background-color: #FFFFFF;
+	margin-left: -2px;
+	margin-top: 1px;
+	color: #3CB1F7;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+	color: #999999;
+	font-size: 14px;
+	font-family: simsun;
+}
+
+:-moz-placeholder {
+	color: #999999;
+	font-size: 14px;
+	font-family: simsun;
+}
+
+:-ms-input-placeholder {
+	color: #999999;
+	font-size: 14px;
+	font-family: simsun;
+}
+
+.search-box .navs {
+	overflow: hidden;
+	margin-top: 5px;
+	height: 14px;
+}
+
+.search-box .navs a{
+	display: block;
+	float: left;
+	border-right: 1px solid #FFFFFF;
+	text-align: center;
+	height: 13px;
+	line-height: 13px;
+	width: 47px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.search-box .navs a:last-child{
+	border: 0px !important;
+}
+.search-box .navs a:first-child{
+	text-align: left;
+}
+@media only screen and (min-width: 300px) and (max-width: 1000px){
+	.search-box {
+	 	width: 200px;
+	}
+	.search-box .search-form input[type="text"]{
+	width: 150px;
+}
+.rigthLogo .search-box .search-form input[type="submit"]{
+	width: 50px;
+}
+.car{
+	margin-left:20px;
+}
+}
+/*car*/
+.car{
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	margin: 55px 0px;
+	width: 159px;
+	background-color: #FFFFFF;
+	color: #3CB1F7;
+	position: relative;
+	float: right;
+	margin-left: 60px;
+	border-radius: 3px;
+}
+.car img{
+	padding-right: 5px;
+}
+.car .badge{
+	background-color: #FF0000 !important;
+	color: #FFFFFF !important;
+	position: absolute;
+	top: -30%;
+	border-bottom-left-radius:10%;
+}
+
+#pwd{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 19px;
+	color: #666666;
+	font-weight: bold;
+	font-family: simsun;
+	text-decoration: none;
+}
+
+.body input{
+	height: 58px !important;
+}

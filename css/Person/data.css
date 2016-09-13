@@ -1,0 +1,76 @@
+/*datainfor*/
+/*persondetail*/
+.persondata{
+	margin: 0 auto;
+	padding-top: 60px;
+	overflow: hidden;
+	padding-left: 125px;
+	padding-right: 125px;
+}
+.personimg{
+	float: left;
+	margin-right: 40px;
+}
+.persondetail{
+	float: left;
+	padding-left: 10px;
+}
+.persondetail div{
+	margin-bottom: 17px;
+}
+.persondetail div label{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.persondetail div span{
+	color: #333333;
+	font-family: simsun;
+	font-size: 16px;
+}
+/*address*/
+.persondetail div:nth-child(5) label{
+	display: block;
+	float: left;
+}
+.persondetail div:nth-child(5) .address label{
+	width: 100px;
+	text-align: center;
+	
+}
+.persondetail div:nth-child(5) .address{
+	width: 300px;
+	height: 175px;
+	float: left;
+	background-color: #f0f0f0;
+}
+.persondetail div:nth-child(5) .address div{
+	margin-bottom: 12px !important;
+}
+
+.persondetail  .address span{
+	font-size: 14px !important;
+	text-align: left;
+}
+.persondetail .moren{
+	margin-left: 71.3px;
+	color: #248bcc;
+	font-family: simsun;
+	font-size: 14px;
+}
+
+.amend a{
+	display: block;
+	color: #FFFFFF !important;
+	font-size: 14px;
+	font-family: simsun;
+	width: 119px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #3CB1F7;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-decoration: none;
+}

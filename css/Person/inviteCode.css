@@ -1,0 +1,80 @@
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.InvitationContent {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*invitationNav*/
+.invitationNav {
+	float: left;
+	width: 200px;
+}
+.invitationNav div ul{
+	padding-top:15px;
+}
+.invitationNav div ul li a{
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+}
+.invitationNav div a{
+    padding-left: 25px;
+}
+.invitationNav div{
+	margin-top: 20px;
+}
+.invitationNav div span{
+	width: 100%;
+}
+.invitationNav .pay span, .invitationNav .collect span, .invitationNav .crowdfunding span{
+	padding-left: 25px !important;
+}
+.invitationNav div span, .invitationNav div span a{
+	color: #666666;
+	font-family:simsun;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+}
+.invitationNav .activecode{
+	border-left: 2px solid #3CB1F7;
+}
+.invitationNav .activecode a{
+	color: #3CB1F7 !important;
+}
+/*invitation content*/
+.mamincontnt{
+	float: left;
+	width: 1000px;
+	/*text-align: center;*/
+}
+
+.invitationCon span{
+	display: block;
+	text-align: center;
+	font-family: "微软雅黑";
+	width: 100%;
+}
+
+.invitationCon span:first-child{
+	color: #666666;
+	font-size: 16px;
+	margin-top: 220px;
+}
+
+.invitationCon span:nth-child(2){
+	color: #3CB1F7;
+	font-size: 36px;
+}
+
+
+.invitationCon span:last-child{
+	color: #666666;
+	font-size: 12px;
+}

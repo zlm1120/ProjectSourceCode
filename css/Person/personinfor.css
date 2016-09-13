@@ -1,0 +1,230 @@
+.breadcrumb{
+	margin-bottom: 0px !important;
+}
+em{
+	visibility: hidden;
+}
+/*personinfor headportrait*/
+.persondata div.personinfor span,
+.persondata div.headportrait span,
+.persondata div.binding span,
+.persondata div.Address span.addresslable{
+	background: url(../../img/个人资料-修改bg_03.png) no-repeat;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	color: #033b5d;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.persondata div.personinfor div,
+.persondata div.headportrait div,
+.persondata div.binding div,
+.persondata div.Address div.addresscon{
+	padding-left: 75px;
+	height: 40px;
+	line-height: 40px;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+.persondata div.personinfor div:last-child,
+.persondata div.headportrait div:last-child,
+.persondata div.binding div:last-child
+{
+	margin-bottom: 30px;
+}
+
+.persondata div.personinfor div label,
+.persondata div.binding div label{
+	width: 70px;
+	text-align: left;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+.persondata div.personinfor div input[type="text"],
+.persondata div.binding div input[type="text"]{
+	height: 100%;
+	width: 338px;
+	outline: none;
+}
+.persondata div.personinfor div em,
+.persondata div.binding div em{
+	font-style: normal;
+	color: red;
+	display: inline-block;
+	padding-left: 5px;
+}
+/*基本信息 生日*/
+.personinfor select{
+	margin-right: 10px;
+	appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url(../../img/个人资料-修改_03.png) no-repeat  right center transparent;
+    outline: none;
+    height: 26px;
+    width: 106px;
+    line-height: 26px;
+    border: 1px solid  #a0a0a0;
+    font-family: simsun;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+/*头像*/
+.headportrait{
+	overflow: hidden;
+}
+.headportrait div{
+	width: auto !important;
+	height: auto !important;
+	float: left;
+}
+.headportrait div i{
+	display: block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #999999;
+	font-style: normal;
+}
+.headportrait div a{
+	display: block;
+	margin-top: 33px;
+	background-color: #434343;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: simsun;
+	text-align: center;
+}
+/*账号*/
+.persondata div.binding div label{
+	width: auto !important;
+}
+.binding div:last-child input{
+	width: 122px !important;
+	height: 38px !important;
+}
+.binding div:last-child{
+	margin-bottom: 30px;
+}
+#member{
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: #999999 !important;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: simsun;
+	width: 120px;
+	margin: 15px 10px;
+	cursor: pointer;
+	background: url();
+}
+/*收货地址*/
+.persondata div.Address div.addresscon{
+	height: auto !important;
+	overflow: hidden;
+}
+.addresscon div.address{
+	float: left;
+	background-color: #F0F0F0;
+	width: 300px;
+}
+.addresscon div.address div{
+	overflow: hidden;
+	
+}
+.addresscon div.address div label{
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+	width: 100px;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	float: left;
+}
+.addresscon div.address div span{
+	color: #333333;
+	font-size: 14px;
+	font-family: simsun;
+	width: 180px;
+	display: block;
+	float: left;
+}
+.Address div.morenadd{
+	margin-left: 75px;
+	color: #248bcc;
+	font-family: simsun;
+	font-size: 14px;
+	float: none !important;	
+	overflow: hidden;
+}
+
+.morenadd div{
+	overflow: hidden;
+	width: 320px;
+}
+.morenadd a{
+	display: block;
+	float: left;
+	font-family: simsun;
+	font-size: 14px;
+	color: #eb6100;
+	padding-right: 5px;
+}
+.morenadd a:first-child{
+	border-right: 1px solid #eb6100;
+}
+
+/*地址填写信息*/
+.addressinfor .personinfor div{
+	margin-top: 10px !important;
+	line-height: 40px;
+}
+.addressinfor .personinfor div select{
+	margin-left: -8px;
+}
+.addressinfor .personinfor div input[type="checkbox"]{
+	margin-left: 70px;
+	height: 15px;
+	width: 15px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.addressinfor .personinfor div b{
+	font-family: simsun;
+	font-size: 12px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;
+}
+.addressinfor .personinfor div  button{
+	width: 122px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: simsun;
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 0px;
+	outline: none;
+}
+
+.addressinfor .personinfor div button:first-child{
+	background-color: #3CB1F7;
+	margin-right: 10px;
+}
+.addressinfor .personinfor div button:last-child{
+	background-color: #434343;
+}

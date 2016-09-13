@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="css/Person/page-header.css" />
+		<link rel="stylesheet" href="css/Person/person-logo.css" />
+		<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/comment/bootstrap.css" />
+		<link rel="stylesheet" href="css/comment/main.css" />
+		<link rel="stylesheet" href="css/indexcomment.css" />
+		<link rel="stylesheet" href="css/comment/footer.css" />
+
+		<link rel="stylesheet" href="css/miaosha.css" />
+		<link rel="stylesheet" href="css/comment/footer.css" />
+		<link rel="stylesheet" href="css/item-detail.css" />
+		<script type="text/javascript" src="js/item-detail.js"></script>
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="login/login.html">【登录】</a></li>
+						<li><a href="login/Rigister.html">免费注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo">
+				<div class="Pl-left"></div>
+				<div class="PL-right">
+					<div>
+						<select>
+							<option>商品</option>
+						</select>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+
+				<div class="car" style="float: right;">
+					<img src="img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+		<!--logo header end-->
+		<div class="indexmain">
+			<div class="nav-index">
+				<ul>
+					<li><a href="#">全部商品</a></li>
+					<li><a href="#">家居城</a></li>
+					<li><a href="#">汽车城</a></li>
+					<li><a href="#">家乡味</a></li>
+					<li><a href="#">众筹</a></li>
+					<li><a href="#">一元夺宝</a></li>
+					<li><a href="#">公益</a></li>
+					<li><a href="#">抢红包</a></li>
+					<li><a href="#">新闻</a></li>
+					<li><a href="#">投资</a></li>
+					<li><a href="#">活动</a></li>
+				</ul>
+			</div>
+			<!--detail title-->
+			<div class="itemdetailcon">
+				<div class="detailmain">
+					<!--详情导航-->
+					<div class="detailnav">
+						<ol class="breadcrumb">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">秒杀专区</a></li>
+							<li class="active"><a>商品详情</a></li>
+						</ol>
+					</div>
+					<!--左边的焦点轮播图-->
+					<div class="detailslide">
+						<ul class="detailimglist" id="detailimglist">
+							<li>
+								<a href="#"><img src="img/1.png" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/1.png" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/1.png" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="img/1.png" /></a>
+							</li>
+						</ul>
+						<ol class="cicreList" id="cicreList">
+						</ol>
+					</div>
+					<!--右边的商品详情信息-->
+					<div class="detailtext">
+						<span class="detailtitle">完整的商品名称加上品牌，型号，规格，属性字数最好控制在两行
+						完整的商品名称加上品牌，型号，规格，属性字数最好控制在两行</span>
+						<div class="detailprice detailcomm">
+							<span>价格<del>&yen;5311.00</del></span>
+							<span>500积分<em>+&yen;23.50</em></span>
+						</div>
+						<div class="detailtotal detailcomm">
+							<span>秒杀总量:<em>336</em></span>
+							<span>仅剩：<em>62</em></span>
+						</div>
+						<div class="detailstandard detailcomm detailactiveparent">
+							<i>规格</i><span>规格1</span><span>规格1</span><span>规格1</span>
+						</div>
+						<div class="detailsize detailcomm detailactiveparent">
+							<i>尺寸</i><span>s</span><span>M</span><span>l</span>
+						</div>
+						<div class="detailnum detailcomm">
+							<i>数量</i>
+							<div>
+								<a href="javascript:;" id="minus">-</a>
+								<input type="tetx" value="1" id="valuse" />
+								<a href="javascript:;" id="add">+</a>
+								<span>库存：132件</span>
+							</div>
+						</div>
+						<div class="detailbtn">
+							<a href="javascript:;" class="buybtn">立即抢购</a>
+							<span class="buymodel">分享到：
+							<a href="javascript:;"><img src="img/形状-2.png"/></a>
+							<a href="javascript:;"><img src="img/矢量智能对象.png"/></a>
+							<a href="javascript:;"><img src="img/形状-3.png"/></a>
+							<a href="javascript:;"><img src="img/形状-4.png"/></a>
+							<a href="javascript:;"><img src="img/形状-5.png"/></a>
+						</span>
+						</div>
+					</div>
+				</div>
+				<!--商品详情的内容区域-->
+				<div class="detailcontent">
+					<div class="detailmelltitle">
+						<a href="javascript:;" class="activedetail">商品参数</a>
+						<a href="javascript:;">图文详情</a>
+					</div>
+					<div class="detailparemeterimg">
+						<!--商品参数-->
+						<div class="detailparameter">
+							<div class="parameter">
+								<span>参数信息：………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………</span>
+							</div>
+							<div class="parameter">
+								<span>参数信息：…………………………………………………………………………………………………………………………………………………………</span>
+							</div>
+							<div class="parameter">
+								<span>参数信息：…………………………………………………………………………………………………………………………………………………………</span>
+							</div>
+						</div>
+						<!--图文详情-->
+						<div class="detailimg">
+							<div class="detailimgdiv">
+								<img src="img/图层-99.png" />
+							</div>
+							<div class="detailimgdiv">
+								<img src="img/图层-100.png" />
+							</div>
+							<div class="detailimgdiv">
+								<img src="img/图层-101.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--footer-->
+				</div>
+					<div class="footer">
+					 	© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+					</div>
+				</div>
+				
+			</div>
+	</body>
+
+</html>

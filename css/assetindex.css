@@ -1,0 +1,96 @@
+.mycollectdiv span.titlelist em{
+	font-style: normal;
+	font-size: 12px;
+	font-family: simsun;
+	color: #3CB1F7;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.mycollectdiv  .fundingbtngroup{
+	border-bottom: 3px solid #CCCCCC;
+	height: 43px;
+}
+.mycollectdiv  .fundingbtngroup a{
+	background-color: #FFFFFF !important;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333 !important;
+	font-weight: normal;
+}
+.mycollectdiv div.fundingbtngroup a.activeclick{
+	background-color: #FFFFFF !important;
+	color: #3CB1F7 !important;
+	border-bottom: 3px solid #3CB1F7 !important;
+	height: 43px;
+}
+
+.collectdivlist{
+	margin-top: 10px;
+}
+.collectdivlist img:first-child{
+	margin-right: 3px;
+}
+
+.collectdivlist span{
+	font-family: simsun;
+	font-size: 16px;
+	color: #666666;
+	margin-top: 12px;
+	display: block;
+	font-weight: bold;
+}
+
+.collectdivlist span a{
+	color: #3CB1F7;
+	text-decoration: underline;
+}
+
+/*
+ * 弹出框
+ */
+
+.modal-header{
+	border-bottom: 1px solid #FFFFFF !important; 
+}
+.modal-title{
+	color: #333333;
+	font-family:"微软雅黑";
+	font-size: 18px;
+	text-align: center;
+}
+
+.modal-content{
+	border-radius: 0px;
+	font-family: simsun;
+	width: 500px;
+	height: 182px;
+}
+
+.modal{
+	height: 600px;
+	top: 30%;
+}
+
+.modal-body{
+	padding-left: 30px;
+}
+
+.modal-body span{
+	display: block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #666666;
+	margin-top: 11px;
+}
+
+.modal-header button{
+	border: 1px solid #a3a3a3;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    outline: none;
+}
+
+.close {
+   font-size: 12px;
+}

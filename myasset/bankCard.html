@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>银行卡管理</title>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+
+		<link rel="stylesheet" href="../css/leftnav.css" />
+		<link rel="stylesheet" href="../css/collect.css" />
+
+		<link rel="stylesheet" href="../css/assetindex.css" />
+
+		<link rel="stylesheet" href="../css/myassetindex1.css" />
+		
+		<link rel="stylesheet" href="../css/bankcard.css" />
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader" style="width: 1000px;">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="../login/login.html">【登录】</a></li>
+						<li>免费注册</li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo" style="width: 1000px;">
+				<div class="Pl-left">
+				</div>
+				<div class="PL-center">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#" id="setpass">账户设置</a></li>
+						<li><a href="#">消息</a></li>
+					</ul>
+				</div>
+				<div class="PL-right">
+					<div>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+				<div class="car" style="float: right;">
+					<img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：2998511293@qq.com
+        	时间：2016-06-07
+        	描述：领券中心的主要内容
+        -->
+
+		<div class="leftnavs">
+			<div class="mycollectdiv">
+				<span class="titlelist">钱包&nbsp;><em>银行卡管理</em></span>
+				<div class="collectdivlist">
+					<div class="assetimglist firstbankcard">
+						<div class="banktitile">
+							<img src="../image/images/矢量智能对象1.png" />
+							<span>储蓄卡</span>
+						</div>
+						<div class="bankcon">
+							<label>账号：</label><span class="cardnumber">62399487857485747</span>
+						</div>
+						<div class="bankdetele">
+							<span>删除</span>
+						</div>
+					</div>
+					
+					<div class="assetimglist" id="addcard">
+						<span data-toggle="modal" data-target="#bankmodel">添加银行卡</span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+			<!--
+	        	作者：2998511293@qq.com
+	        	时间：2016-06-08
+	        	描述：添加银行卡弹出框
+	        -->
+        	<div class="modal fade" id="bankmodel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title" id="myModalLabel">添加银行卡</h4>
+						</div>
+						<div class="modal-body">
+							<span>请绑定持卡人本人的银行卡并必须为储蓄卡</span>
+							<div>
+								<label>持卡人:</label><input type="text"  placeholder="请在此输入姓名"/>
+							</div>
+							<div>
+								<label>卡号:</label><input type="text"  placeholder="请在此输入银行卡号"/>
+							</div>
+							<div class="rigistercard">
+								<input type="checkbox" />
+								<em>同意注册协议<i><<某某协议>></i></em>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary">确认</button>
+							<button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal -->
+			</div>
+		<div class="footer" style="position: absolute; bottom: 0px;">
+			© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.fundingbtngroup a').each(function() {
+				$(this).click(function() {
+					var index = $(this).index();
+					$(this).addClass('activeclick').siblings().removeClass('activeclick');
+				});
+			});
+		});
+	</script>
+
+</html>

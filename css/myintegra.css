@@ -1,0 +1,233 @@
+.Integralmall{
+	overflow: hidden;
+	height: 200px;
+	width: 1000px;
+	background-color: #ebf7fe;
+}
+.Integralmall .Availableintegra{
+	width: 495px;
+	margin-top: 20px;
+	text-align: center;
+	float: left;
+	height: 160px;
+	text-align: center;
+}
+.Integralmall .Availableintegra:nth-child(1){
+	border-right: 1px solid #93d4fa;
+}
+.Integralmall .Availableintegra span{
+	display: block;
+}
+.Integralmall .Availableintegra span:nth-child(1){
+	font-family: simsun;
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.Integralmall .Availableintegra span:nth-child(2){
+	color: #F1A400;
+	font-family: impact;
+	font-size: 48px;
+}
+.Integralmall .Availableintegra span:nth-child(3) a{
+	color: #3CB1F7;
+	font-family: simsun;
+	font-size: 14px;
+	display: inline-block;
+	width: 93px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #3cb1f7;
+	outline: none;
+}
+.Integralmall .Availableintegra span:nth-child(3) a:first-child{
+	margin-right: 10px;
+}
+
+.Availableintegra a.integerbtn{
+	width: 200px;
+	height: 49px;
+	line-height: 49px;
+	background-color: #3CB1F7;
+	font-family: simsun;
+	font-size: 16px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-top: 55px;
+}
+
+/*
+ * integrallist style
+ */
+.integrallist{
+	margin-top: 20px;
+	font-family: simsun;
+}
+.integrallist table{
+	width: 100%;
+}
+.integrallist table thead{
+	height: 50px;
+	line-height: 50px;
+	color: #999999;
+	font-size: 14px;
+	background-color: #F0F0F0;
+	border-top: 1px solid #cccccc;
+}
+.integrallist table thead tr th:first-child{
+	width: 350px;
+	text-align: center;
+}
+.integrallist table thead tr th{
+	width: 200px;
+	text-align: center;
+}
+
+.integrallist table tbody tr{
+	height: 112px !important;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+}
+.integrallist table tbody tr td:first-child {
+	padding-right: 60px;
+	text-align: left;
+}
+.integrallist table tbody tr td:first-child div.media .media-body  .media-heading{
+	color: #666666;
+	font-size: 16px;
+}
+.integrallist table tbody tr td:first-child div.media .media-body  span{
+	display: inline-block;
+	height: 20px;
+	margin-top: 20px;
+	font-family: simsun;
+	font-size: 14px;
+	color: #999999;
+}
+
+.integrallist table tbody tr td:nth-child(2){
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #ff0909;
+}
+.integrallist table tbody tr td:nth-child(3),
+.integrallist table tbody tr td:nth-child(4)
+{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+
+/*.integerbchange*/
+
+.activenumber{
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	float: right;
+}
+.activenumber li{
+	background-color: #FFFFFF !important;
+}
+.activenumber li a{
+	font-family: simsun;
+	font-size: 12px;
+	color: #333333;
+	margin-left: 5px;
+	height: 27px;
+	text-align: center;
+}
+.activenumber li:nth-child(1) a{
+	width: 68px;
+	padding-left: 10px;
+}
+.activenumber li a:not(.numberlist){
+	border: 0px !important;
+}
+.active>a{
+	background-color:#f39800 !important;
+	color: #FFFFFF;
+}
+
+
+
+.modal-title{
+	color: #333333;
+	font-family: simsun;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.modal-content{
+	border-radius: 0px;
+	font-family: simsun;
+	width: 500px;
+	height: 249px;
+}
+.modal{
+	position: absolute !important;
+	left: 50% !important;
+	top: 50%;
+	transform: translate(-50%) !important;
+	height: 600px;
+}
+.modal-body{
+	padding: 0px;
+}
+.modal-body div{
+	margin: 15px 44px;
+}
+.modal-body div label{
+	font-size: 14px;
+	color: #666666;
+	width: 110px;
+	font-family: simsun;
+	font-weight: normal;
+	text-align: left;
+}
+.modal-body div input{
+	width: 250px;
+	height: 36px;
+	outline: none;
+}
+.modal-body div:nth-child(1) input{
+	width: 100px;
+}
+.modal-body div:nth-child(1) em{
+	font-style: normal;
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.btn {
+	padding: 0px;
+    line-height: 36px;
+    width: 120px;
+    height: 36px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+}
+.modal-footer{
+	text-align: center;
+	border-top: 0px;
+}
+.modal-footer .btn:nth-child(1){
+	background-color: #3cb1f7;
+}
+.modal-footer .btn:nth-child(2){
+	background-color: #434343;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的优惠券</title>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+
+		<link rel="stylesheet" href="../css/leftnav.css" />
+		<link rel="stylesheet" href="../css/collect.css" />
+
+		<link rel="stylesheet" href="../css/assetindex.css" />
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="../login/login.html">【登录】</a></li>
+						<li>免费注册</li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo">
+				<div class="Pl-left">
+				</div>
+				<div class="PL-center">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#" id="setpass">账户设置</a></li>
+						<li><a href="#">消息</a></li>
+					</ul>
+				</div>
+				<div class="PL-right">
+					<div>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+				<div class="car" style="float: right;">
+					<img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="leftnavs">
+			<div class="invitationNav">
+				<div class="order"><span><a href="myorderindex.html">我的订单</a></span></div>
+				<div class="pay">
+					<span>我的资产</span>
+					<ul>
+						<li><a href="../myasset/myassetindex.html">优惠券</a></li>
+						<li><a href="../myasset/myassetintegral.html">积分(2000)</a></li>
+						<li><a href="../myasset/membershipcard.html">会员卡</a></li>
+						<li><a href="../myasset/packet.html">红包</a></li>
+						<li><a href="../myasset/walletl.html">钱包</a></li>
+					</ul>
+				</div>
+				<div class="collect">
+					<span>我的收藏</span>
+					<ul>
+						<li><a href="../mycollect/mycollectindex.html">商品收藏</a></li>
+						<li><a href="../mycollect/shopcollect.html">店铺收藏</a></li>
+						<li><a href="../mycollect/activecollect.html">活动收藏</a></li>
+						<li><a href="../mycollect/newcollect.html">新闻收藏</a></li>
+					</ul>
+				</div>
+				<div class="crowdfunding">
+					<span>我的众筹</span>
+					<ul>
+						<li><a href="../myfunding/myfundingindex.html">项目众筹</a></li>
+							<li><a href="../myfunding/myfunding1.html">产品众筹</a></li>
+							<li><a href="../myfunding/myfunding2.html">发起的众筹</a></li>
+					</ul>
+				</div>
+				<div class="code">
+					<span><a href="../mycode/mycodeindex.html">我的邀请码</a></span>
+				</div>
+				<div class="recode">
+					<span><a href="../BrowsingHistory/BrowsingHistory.html">我的邀请码</a></span>
+				</div>
+				<div class="merchant">
+					<span><a href="javascript:void(0);">商家管理</a></span>
+				</div>
+			</div>
+			<!--
+            	作者：2998511293@qq.com
+            	时间：2016-06-05
+            	描述：leftnav content
+     		-->
+			<div class="mycollectdiv">
+				<span class="titlelist">我的优惠券<em style="cursor: pointer;" data-toggle="modal" data-target="#instructions">使用说明</em></span>
+				<div class="fundingbtngroup">
+					<a href="javascript:void(0);" class=" activeclick firstclick">未使用(8)</a>
+					<a href="javascript:void(0);">已使用(4)</a>
+					<a href="javascript:void(0);">已过期(5)</a>
+				</div>
+				<div class="collectdivlist">
+					<div class="assetimglist">
+						<img src="../image/1-0优惠劵_03.png" />
+						<img src="../image/1-0优惠劵_05.png">
+						<img src="../image/1-0优惠劵_07.png" />
+					</div>
+					<span>更多好券， 去<a href="javascript:void(0);">领券中心</a>看看</span>
+				</div>
+			</div>
+		</div>
+
+		<!--
+            	作者：2998511293@qq.com
+            	时间：2016-06-08
+            	描述：弹框
+            -->
+		<div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">第三城优惠券使用说明</h4>
+					</div>
+					<div class="modal-body">
+						<span>1.同一店铺同一订单不能重复使用优惠券 </span>
+						<span>2.优惠券不可抵押运费，</span>
+						<span>3.优惠券大于订单应付金额时，差额不予退回，</span>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal -->
+		</div>
+		<div class="footer" style="position: absolute; bottom: 0px;">
+			© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.fundingbtngroup a').each(function() {
+				$(this).click(function() {
+					var index = $(this).index();
+					$(this).addClass('activeclick').siblings().removeClass('activeclick');
+				});
+			});
+		});
+	</script>
+
+</html>

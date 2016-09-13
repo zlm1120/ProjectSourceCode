@@ -1,0 +1,143 @@
+.Secusetting{
+	width: 1000px;
+	min-width: 1000px;
+}
+
+label,em,i,b{
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+ * loginpwd
+ */
+.Secusetting .loginpwd{
+	width: 420px;
+	margin: 0 auto;
+}
+.corporate{
+	width: 420px;
+	margin: 0 auto;
+}
+.corporate span{
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid #B3B3B3;
+}
+.corporate span label{
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+.corporate span input{
+	height: 56px;
+	width: 297px;
+	outline: none;
+	border: 0px !important;
+}
+/*
+ * 提示
+ */
+.input-tip{
+	color: #c5c5c5;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.input-tip .error {
+    color: #e22;
+ }
+#form-account-error{
+	display: inline !important;
+	height: 20px !important;
+	line-height: 20px !important;
+	border: 0px !important;
+}
+/*
+ * 验证码
+ */
+.mycode span{
+	width: 250px;
+	display:inline-block !important;
+}
+.mycode input{
+	width: 125px !important;
+}
+.mycode b{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #999999;
+	font-family: simsun;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-left: 15px;
+	cursor: pointer;
+}
+/*
+ * 完成
+ */
+.corporate div a.completebtn{
+	width: 420px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	background-color: #3CB1F7;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #FFFFFF;
+	display: inline-block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/*
+ * paypwd
+ */
+input.tipinfor{
+	background: url(../image/images/02-1支付密码_03.png) no-repeat right center;
+}
+.paypwdcon div:nth-child(1){
+	width: 500px !important;
+}
+.paypwdcon div:nth-child(1) span{
+	display: inline-block;
+	width: 420px;
+	margin-bottom: 30px;
+}
+.paypwdcon em{
+	font-family: simsun;
+	font-size: 14px;
+	color: #FF0000;
+	display: none;
+}
+
+/*
+ * title 
+ */
+.paypwd  .paypwdtitle{
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	background-color: #D8EFFD;
+	margin-bottom: 30px;
+}
+.paypwd .paypwdtitle a{
+	display: inline-block;
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	width: 498px;
+	text-align: center;
+}
+.paypwd .paypwdtitle a.clickactive{
+	color: #3CB1F7 !important;
+	border-bottom: 5px solid #b9e3fc;
+}

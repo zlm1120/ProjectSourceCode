@@ -1,0 +1,46 @@
+/*imglist styke*/
+.storeimglist{
+	padding-top: 20px;
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.storeimglist .storesaleimglist{
+	float: left;
+	width: 240px;
+}
+.storesaleimglist img, .storesaleimglist span{
+	display: block;
+}
+.storesaleimglist span{
+	padding-left: 12px;
+	padding-right: 20px;
+	font-family: simsun;
+	font-size: 12px;
+	color: #666666;
+}
+.storesaleimglist span:nth-child(3){
+	font-family: "微软雅黑";
+	color: #FF0000;
+	font-size: 24px;
+	font-weight:bold;
+	margin-top: 5px;
+}
+.storesaleimglist span:nth-child(3) del{
+	color: #666666;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.storesaleimglist span:last-child{
+	color: #999999;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.storesaleimglist span:last-child em{
+	color: #3CB1F7;
+	font-style: normal;
+	font-size: 14px;
+}

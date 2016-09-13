@@ -1,0 +1,54 @@
+.codecontent{
+	float: left;
+	width: 1000px;
+	height: 100%;
+	margin-top: 226px;
+	font-family: "微软雅黑" simsun;
+}
+.codecontent span{
+	display: block;
+	text-align: center;
+}
+.codecontent span:nth-child(1){
+	color: #666666;
+	font-size: 16px;
+}
+.codecontent span:nth-child(2){
+	font-family: "微软雅黑";
+	font-size: 36px;
+	color: #3CB1F7;
+}
+.codecontent span:nth-child(3){
+	color: #666666;
+	font-family: simsun;
+	font-size: 12px;
+}
+.codecontent span:nth-child(4){
+	color: #333333;
+	font-size: 14px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+.line {
+	position: relative;
+	margin: 0 auto;
+	width: 375px;
+}
+
+.or-line {
+	background-color: #999999;
+	width: 100%;
+	border-bottom: 1px solid #999999;
+	position: relative;
+}
+
+.or {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	height: 31px;
+}

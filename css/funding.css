@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.funding1div{
+	float: left;
+	width: 1000px;
+}
+.funding1div span.titlelist{
+	margin-top: 30px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.funding1div div.fundingbtngroup a{
+	display: inline-block;
+	width:153px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	background-color: #EEEEEE;
+}
+.funding1div div.fundingbtngroup a:not(.firstclick){
+	margin-left: -4px;
+}
+.funding1div div.fundingbtngroup a.activeclick{
+	color: #FFFFFF;
+	background-color: #3CB1F7;
+}
+.funding1div .fundingpro div.fundingtitles{
+	background-color: #f0f0f0;
+	height: 50px;
+	line-height: 50px;
+}
+.funding1div .fundingpro div.fundingtitles span{
+	display: inline-block;
+	font-family: simsun;
+	color: #999999;
+	font-size: 14px;
+}
+.funding1div .fundingpro div.fundingtitles span:nth-child(1){
+	padding-left: 152px;
+	padding-right: 250px;
+}
+.funding1div .fundingpro div.fundingtitles span.commentspan{
+	width: 130px;
+	text-align: center;
+}
+
+
+.media{
+	height: 151px;
+	line-height: 151px;
+	width: 489px;
+	padding-left: 10px;
+}
+.media img{
+	width: 173px;
+	height: 119px;
+	vertical-align: middle;
+	margin-top: 11px;
+	margin-bottom: 20px;
+}
+.media .media-heading{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #333333;
+	margin-top: 22px;
+	margin-right: 40px;
+	text-align: left;
+}
+
+.funding1list table{
+	margin-top: 10px;
+}
+.funding1list table tr td{
+	border: 1px solid #E6E6E6;
+	font-family: "微软雅黑";
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+	padding-top: 10px;
+	width: 120px;
+}
+.funding1list table tr{
+	padding-top: 10px;
+}
+.funding1list table tr td:nth-child(2){
+	color: #E60012;
+	font-size: 24px;
+}
+.funding1list table tr td:nth-child(3),
+.funding1list table tr td:nth-child(4){
+	font-size: 14px;
+	color: #666666;
+	width: 120px;
+}
+.funding1list table tr td.laststatus{
+	width: 150px;
+	font-family: simsun;
+	color:#f1a400;
+	font-size: 14px;
+	font-weight: bold;
+}

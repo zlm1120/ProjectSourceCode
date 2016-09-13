@@ -1,0 +1,36 @@
+.Plogo .PL-center ul li {
+    margin-left: 30px;
+}
+.Plogo .car {
+	width: 120px;
+}
+.Plogo .PL-right input[type="text"] {
+	width: 200px;
+}
+
+.leftnavs{
+	width: 1000px;
+}
+.mycollectdiv{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mycollectdiv span.titlelist{
+	color: #666666;
+	font-family: simsun;
+	font-size: 12px;
+	color: #666666;
+	font-weight: normal;
+}
+.mycollectdiv span.titlelist em{
+	color: #333333;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: bold;
+}
+.collectdivlist{
+	margin-top: 0px;
+}
+.collectdivlist img{
+	margin-top: 10px;
+}

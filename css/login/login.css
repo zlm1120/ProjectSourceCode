@@ -1,0 +1,181 @@
+/*bg style*/
+.bg {
+	width: 100%;
+	height: 513px;
+	background-color: #2d9ff7;
+}
+
+/*bg left img style*/
+.login-02 {
+	float: left;
+	height: 513px;
+}
+/*bg rigth style*/
+.bg-rigth {
+	float: left;
+	height: 421px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	padding-top: 23px !important;
+	display: block;
+}
+
+/*login top style*/
+.login-top span {
+	overflow: hidden;
+}
+.login-top span a {
+	color: #333333;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+.login-top span:first {
+	float: left;
+}
+
+.login-top span:last-child {
+	float: right;
+}
+.login-top span em {
+	font-style: normal;
+	display: inline-block;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	margin-right: 10px;
+	color: #333333;
+}
+
+.login-top {
+	margin-bottom: 40px;
+}
+
+
+/*username style */
+.Uesername,
+.PassWord {
+	height: 40px;
+	margin-bottom: 40px;
+	border: 1px solid #dcdcdc;
+	width: 349px;
+}
+.icon{
+	height: 40px;
+	width: 40px;
+	display: block;
+	float: left;
+}
+.Uesername span.img {
+	background: url(../../img/login/登录_03.png) no-repeat center center;
+}
+
+.Uesername input.text,
+.PassWord input.text {
+	height: 40px;
+	width: 300px;
+	border: 0px !important;
+	background-color: #F0F0F0;
+	padding-left: 8px;
+	outline: none;
+	line-height: 40px;
+}
+
+.PassWord span.img {
+	background: url(../../img/login/登录_06.png) no-repeat center center;
+}
+
+::-webkit-input-placeholder {
+	color: #999999;
+	font-size: 12px;
+	font-family: simsun;
+}
+
+:-moz-placeholder {
+	color: #999999;
+	font-size: 12px;
+	font-family: simsun;
+}
+
+:-ms-input-placeholder {
+	color: #999999;
+	font-size: 12px;
+	font-family: simsun;
+}
+
+
+/*btn*/
+.loginBtn {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #3cb1f7;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.PassWordAction {
+	overflow: hidden;
+	margin-top: 20px;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+
+.PassWordAction input {
+	float: left;
+	height: 20px;
+	width: 15px;
+	border: 1px solid #f3f3f3 !important;
+}
+
+.PassWordAction a {
+	float: right;
+	display: block;
+	text-decoration: none;
+	color: #666666;
+}
+
+/*第三方登录*/
+
+.thiredlogin span {
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	display: block;
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.line {
+	position: relative;
+}
+
+.or-line {
+	background-color: #999999;
+	width: 100%;
+	border-bottom: 1px solid #999999;
+	position: relative;
+}
+
+.or {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	width: 110px;
+	height: 31px;
+}

@@ -1,0 +1,194 @@
+/*全局字体样式*/
+.myorderContent{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+}
+/*ordertitlr style */
+.ordertitle{
+	display: block;
+	margin-top: 20px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+/*order btn style*/
+.btn-group{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.btn-group button{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	width: 130px;
+	border: 0px;
+	background-color: #eeeeee;
+}
+/*order btn click style*/
+.btn-group button.btnactive{
+	background-color:#3CB1F7;
+	color: #FFFFFF;
+}
+/*order table*/
+.orderlist table{
+	font-family: simsun;
+	font-size: 14px;
+	font-weight: normal;
+	border-collapse: collapse;
+	border: none;
+	width: 99.9%;
+}
+.orderlist table tr{
+	border: 1px solid  #cccccc;
+}
+.orderlist table tbody tr td:first-child .media a,
+.orderlist table thead tr th:first-child{
+	padding-left: 10px;
+}
+.orderlist table  tr.ordertime td:last-child{
+	font-weight: bold !important;
+}
+.orderlist table  tr.ordertime td:first-child{
+	padding-left: 10px;
+}
+.orderlist table  tr.ordertime td:first-child em{
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-style: normal;
+}
+/*table thead*/
+.orderlist table thead{
+	background-color: #F0F0F0;
+	height: 50px;
+	line-height: 50px;
+	color: #999;
+}
+.orderlist table thead tr{
+	border: 0px !important;
+}
+.orderlist table thead th{
+	font-weight: normal;
+}
+/*table first td style*/
+.orderlist table tr td:first-child{
+	width: 485px;
+}
+.orderlist table tr.ordertime{
+	height: 40px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: #F0F0F0;
+}
+.orderlist tr.orderdetail td{
+	border-right: 1px solid #e6e6e6;
+}
+
+/*order list style*/
+.orderlist table tbody tr.orderdetail .media{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.orderlist table tbody tr.orderdetail td:not(.orderlistfirst){
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.orderstatus{
+	color: #f1a400 !important;
+}
+
+.orderaction a{
+	display: block;
+	text-decoration: none;
+}
+.orderaction a:not(.orderpay){
+	font-size: 12px;
+	color: #666666;
+}
+.orderaction a:first-child{
+	color: #FFFFFF;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #F1A400;
+}
+
+.orderlist .media h4.media-heading{
+	color: #333333;
+	font-family: simsun;
+	font-size: 14px;
+}
+.orderlist .media span{
+	color: #999;
+	display: inline-block;
+	padding-right: 10px;
+}
+.orderlist .media i{
+	font-style: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+}
+.orderlist .media em{
+	display: block;
+	font-style: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 20px;
+}
+
+.orderlist .media.more{
+	border-bottom: 1px solid #e6e6e6;
+}
+/*orderlike*/
+.orderfootertop{
+	overflow: hidden;
+	margin-top: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.orderfootertop a,.orderfootertop span{
+	display: block;
+}
+.orderfootertop a{
+	float: right;
+	color: #3CB1F7;
+}
+.orderfootertop span{
+	color: #666666;
+	float: left;
+}
+.orderlike{
+	overflow: hidden;
+}
+.likecon{
+	width: 250px;
+	float: left;
+}
+.likecon img, .likecon span{
+	display: block;
+}
+.likecon span{
+	font-family: simsun;
+	font-size: 12px;
+	color: #666666;
+	padding-top: 18px;
+}
+.likecon span:last-child{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #eb6100;
+}
+.likecon span:last-child del{
+	color: #666666;
+	font-size: 14px;
+	padding-left: 10px;
+}
+

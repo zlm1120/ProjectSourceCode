@@ -1,0 +1,160 @@
+body {
+	min-width: 1000px !important;
+}
+
+.Plogo span.carheader {
+	display: inline-block;
+	height: 145px;
+	line-height: 145px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+
+.orderimalist {
+	float: right;
+	height: 145px;
+}
+
+.orderimalist span {
+	margin-top: 70px;
+}
+
+.orderimalist span {
+	background-color: #3CB1F7;
+	width: 24px;
+	height: 25px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.orderimalist b {
+	display: inline-block;
+	height: 3.5px;
+	width: 108px;
+	background-color: #3CB1F7;
+	margin-right: -5px;
+}
+
+.orderimalist b.activeborder {
+	background-color: #535353 !important;
+}
+
+.orderimalist span.activespan {
+	background-color: #535353 !important;
+}
+
+
+/*order content*/
+
+.paycontent {
+	width: 100%;
+	height: 750px;
+	background-color: #ecedf2;
+}
+
+.paymincon {
+	width: 1000px;
+	overflow: hidden;
+	height: 61px;
+	line-height: 61px;
+	margin: 0 auto;
+}
+
+.paymincon span {
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+}
+
+.paymincon span em {
+	font-style: normal;
+	color: #FF0000;
+}
+
+.paymincon span:last-child em {
+	font-size: 24px;
+}
+
+.paymincon span:first-child {
+	float: left;
+}
+
+.paymincon span:last-child {
+	float: right;
+}
+
+
+/*paymethod*/
+
+.paymethod {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border: 1px solid #cccccc;
+	padding-top: 21px;
+	height: 200px;
+}
+
+.paymethod span {
+	background: url(../image/矩形-35-拷贝-2.png) no-repeat;
+	height: 42px;
+	line-height: 42px;
+	display: block;
+	padding-left: 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #033B5D;
+	font-weight: bold;
+}
+
+.paymethod .methodimg {
+	padding-left: 20px;
+	overflow: hidden;
+	padding-top: 45px;
+}
+.paymethod .methodimg div{
+	float: left;
+	margin-right: 52px;
+}
+.methodimg img{
+	margin-left: 10px;
+}
+.methodimg input[type="radio"] {
+	margin: 3px 3px 0px 5px;
+	display: none;
+}
+
+.methodimg label {
+	padding-left: 20px;
+	cursor: pointer;
+	background: url(../image/Ellipse-2-copy-2-拷贝.png) no-repeat left center;
+	padding-right: 10px;
+}
+
+.methodimg label.checked {
+	background-position: left bottom;
+	background: url(../image/images/去支付_03.png) no-repeat left center;
+}
+
+/*paybtn*/
+.paybtn{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 19px;
+}
+.paybtn a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px;
+	background-color: #F1A400;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+}

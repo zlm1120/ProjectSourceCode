@@ -1,0 +1,60 @@
+/*rigister style*/
+.rigister-con {
+	width: 806px;
+	height: 555px;
+	background-color: #F0F0F0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 28px;
+	font-family: SimSun;
+	display: none;
+}
+/*rigister title style*/
+.rigister-con span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #727272;
+}
+/*rigister content style*/
+.rigister-con .rc {
+	padding: 20px;
+	border: 1px solid #999999;
+	height: 388px;
+	margin-top: 10px;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+/*rigister botton style*/
+.rigisterBtn {
+	height: 47px;
+	width: 346px;
+	text-align: center;
+	line-height: 47px;
+	background-color: #3CB1F7;
+	color: #FFFFFF;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+
+/*遮罩*/
+.in{
+    z-index:1000;
+    position: relative;
+}
+
+.fullpage{
+ 	background-color:rgb(102,102,102);
+    opacity:0.5;
+    z-index:3;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity:0.5;
+    position: relative;
+}

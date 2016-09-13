@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>领取会员卡</title>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+
+		<link rel="stylesheet" href="../css/leftnav.css" />
+		<link rel="stylesheet" href="../css/collect.css" />
+
+		<link rel="stylesheet" href="../css/assetindex.css" />
+
+		<link rel="stylesheet" href="../css/myassetindex1.css" />
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader" style="width: 1000px;">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="../login/login.html">【登录】</a></li>
+						<li>免费注册</li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo" style="width: 1000px;">
+				<div class="Pl-left">
+				</div>
+				<div class="PL-center">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#" id="setpass">账户设置</a></li>
+						<li><a href="#">消息</a></li>
+					</ul>
+				</div>
+				<div class="PL-right">
+					<div>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+				<div class="car" style="float: right;">
+					<img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：2998511293@qq.com
+        	时间：2016-06-07
+        	描述：领券中心的主要内容
+        -->
+
+		<div class="leftnavs">
+			<div class="mycollectdiv">
+				<span class="titlelist">会员卡&nbsp;><em>领取会员卡</em></span>
+				<div class="fundingbtngroup">
+					<a href="javascript:void(0);" class=" activeclick firstclick">可领取（2）</a>
+					<a href="javascript:void(0);">条件不达标（5）</a>
+				</div>
+				<div class="collectdivlist">
+					<div class="assetimglist">
+						<img src="../image/1-0优惠劵_03.png" />
+						<img src="../image/1-0优惠劵_05.png">
+						<img src="../image/1-0优惠劵_07.png" />
+						<img src="../image/images/1-1优惠劵_03.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer" style="position: absolute; bottom: 0px;">
+			© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.fundingbtngroup a').each(function() {
+				$(this).click(function() {
+					var index = $(this).index();
+					$(this).addClass('activeclick').siblings().removeClass('activeclick');
+				});
+			});
+		});
+	</script>
+
+</html>

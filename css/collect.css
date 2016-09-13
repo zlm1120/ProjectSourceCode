@@ -1,0 +1,116 @@
+.mycollectdiv{
+	width: 1000px;
+	float: left;
+}
+span.titlelist{
+	margin-top: 30px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: block;
+}
+div.fundingbtngroup a{
+	display: inline-block;
+	width:153px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	background-color: #EEEEEE;
+}
+div.fundingbtngroup a:not(.firstclick){
+	margin-left: -4px;
+}
+div.fundingbtngroup a.activeclick{
+	color: #FFFFFF;
+	background-color: #3CB1F7;
+}
+
+/*
+ * collectdivlist style
+ */
+.collectdivlist{
+	overflow: hidden;
+}
+.collectdivlist .sonlist{
+	float: left;
+	width: 240px;
+	margin-top: 20px;
+	position: relative;
+	background-color: #F0F0F0;
+}
+.collectdivlist .sonlist img,
+.collectdivlist .sonlist span{
+	display: block;
+}
+.collectdivlist .sonlist img{
+	width: 240px;
+}
+.collectdivlist .sonlist div{
+	position: absolute;
+	bottom: 100px;
+	width: 240px;
+}
+.collectdivlist .sonlist div a{
+	background-color: #000000;
+	opacity: 0.5;
+	font-family: simsun;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	width: 118px;
+	height: 30px;
+	line-height: 30px;
+}
+.collectdivlist .sonlist span:nth-child(3){
+	color: #FE8202;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	padding-left: 16px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.collectdivlist .sonlist span:nth-child(4){
+	font-family: simsun;
+	color: #666666;
+	font-size: 14px;
+	padding-left: 16px;
+}
+.collectdivlist .sonlist:not(.firstsonlist){
+	margin-left: 9px;
+}
+
+
+.activenumber{
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	float: right;
+}
+.activenumber li{
+	background-color: #FFFFFF !important;
+}
+.activenumber li a{
+	font-family: simsun;
+	font-size: 12px;
+	color: #333333;
+	margin-left: 5px;
+	height: 27px;
+	text-align: center;
+}
+.activenumber li:nth-child(1) a{
+	width: 68px;
+	padding-left: 10px;
+}
+.activenumber li a:not(.numberlist){
+	border: 0px !important;
+}
+.active>a{
+	background-color:#f39800 !important;
+	color: #FFFFFF;
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的积分</title>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+
+		<link rel="stylesheet" href="../css/leftnav.css" />
+		<link rel="stylesheet" href="../css/collect.css" />
+
+		<link rel="stylesheet" href="../css/assetindex.css" />
+
+		<link rel="stylesheet" href="../css/myintegra.css" />
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="../login/login.html">【登录】</a></li>
+						<li>免费注册</li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo">
+				<div class="Pl-left">
+				</div>
+				<div class="PL-center">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#" id="setpass">账户设置</a></li>
+						<li><a href="#">消息</a></li>
+					</ul>
+				</div>
+				<div class="PL-right">
+					<div>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+				<div class="car" style="float: right;">
+					<img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="leftnavs">
+			<div class="invitationNav">
+				<div class="order"><span><a href="myorderindex.html">我的订单</a></span></div>
+				<div class="pay">
+					<span>我的资产</span>
+					<ul>
+						<li><a href="#">优惠券</a></li>
+						<li><a href="#">积分(2000)</a></li>
+						<li><a href="#">会员卡</a></li>
+						<li><a href="#">红包</a></li>
+						<li><a href="#">钱包</a></li>
+					</ul>
+				</div>
+				<div class="collect">
+					<span>我的收藏</span>
+					<ul>
+						<li><a href="#">商品收藏</a></li>
+						<li><a href="#">店铺收藏</a></li>
+						<li><a href="#">活动收藏</a></li>
+						<li><a href="">新闻收藏</a></li>
+					</ul>
+				</div>
+				<div class="crowdfunding">
+					<span>我的众筹</span>
+					<ul>
+						<li><a href="#">项目众筹</a></li>
+						<li><a href="#">产品众筹</a></li>
+						<li><a href="#">发起的众筹</a></li>
+					</ul>
+				</div>
+				<div class="code">
+					<span><a href="#">我的邀请码</a></span>
+				</div>
+				<div class="recode">
+					<span class="activecode"><a href="#">浏览记录</a></span>
+				</div>
+				<div class="merchant">
+					<span><a href="#">商家管理</a></span>
+				</div>
+			</div>
+			<!--
+            	作者：2998511293@qq.com
+            	时间：2016-06-05
+            	描述：leftnav content
+     		-->
+			<div class="mycollectdiv">
+				<span class="titlelist">我的积分</span>
+				<div class="Integralmall">
+					<div class="Availableintegra">
+						<span>可用积分</span>
+						<span>2000</span>
+						<span>
+							<a href="javascript:void(0);">积分说明</a>
+							<a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" >转赠</a>
+						</span>
+					</div>
+					<div class="Availableintegra">
+						<a href="javascript:void(0);" class="integerbtn">积分商城</a>
+					</div>
+				</div>
+				<div class="integrallist">
+					<table>
+						<thead>
+							<tr>
+								<th>积分来源</th>
+								<th>积分变化</th>
+								<th>日期</th>
+								<th>备注</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">+10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object" src="../image/images/3-0我的积分_06.png">
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">商品名称商品名称商品 名称商品名称……</h4>
+											<span>订单编号：14395848975876</span>
+										</div>
+									</div>
+								</td>
+								<td class="integerbchange">-10</td>
+								<td>2016-12-23 13：12:56</td>
+								<td>交易获得</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="activenumber">
+					<ul class="pagination">
+						<li>
+							<a href="#" class="numberlist"><img src="../image/置顶.png" />上一页</a>
+						</li>
+						<li class="active"><a href="#">1</a></li>
+						<li class="disabled"><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#" class="numberlist">下一页<img src="../image/置顶1.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title" id="myModalLabel">
+								转赠
+            				</h4>
+						</div>
+						<div class="modal-body">
+							<div>
+								<label>转赠积分额:</label><input type="text" /><em>(你当前积分2000)</em>
+							</div>
+							<div>
+								<label>转赠用户电话:</label><input type="text" />
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary">确认转赠</button>
+							<button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal -->
+			</div>
+		</div>
+		
+			
+		<div class="footer">
+			© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$('.integerbchange').each(function() {
+				var texts = $(this).text();
+				if (texts < 0) {
+					$(this).css("color", "#3cb1f7");
+				} else {}
+			})
+		});
+	</script>
+
+</html>

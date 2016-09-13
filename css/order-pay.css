@@ -1,0 +1,47 @@
+body {
+	min-width: 1000px !important;
+}
+
+.Plogo span.carheader {
+	display: inline-block;
+	height: 145px;
+	line-height: 145px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+
+.orderimalist {
+	float: right;
+	height: 145px;
+}
+
+.orderimalist span {
+	margin-top: 70px;
+}
+
+.orderimalist span {
+	background-color: #3CB1F7;
+	width: 24px;
+	height: 25px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.orderimalist b {
+	display: inline-block;
+	height: 3.5px;
+	width: 108px;
+	background-color: #3CB1F7;
+	margin-right: -5px;
+}
+
+.orderimalist b.activeborder {
+	background-color: #535353 !important;
+}
+
+.orderimalist span.activespan {
+	background-color: #535353 !important;
+}

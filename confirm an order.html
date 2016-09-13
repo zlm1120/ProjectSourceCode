@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>确认订单</title>
+		<link rel="stylesheet" href="css/Person/person-logo.css" />
+		<link rel="stylesheet" href="css/Person/page-header.css" />
+		<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/comment/bootstrap.css" />
+		<link rel="stylesheet" href="css/comment/main.css" />
+		<link rel="stylesheet" href="css/indexcomment.css" />
+		<link rel="stylesheet" href="css/comment/footer.css" />
+		<link rel="stylesheet" href="css/order-pay.css" />
+
+		<link rel="stylesheet" href="css/confirm-order.css" />
+		<script type="text/javascript" src="js/confirmorder.js" ></script>
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader" style="width: 1000px;">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="login/login.html">【登录】</a></li>
+						<li><a href="login/Rigister.html">免费注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo" style="width: 1000px;">
+				<div class="Pl-left"></div>
+				<span class="carheader">确认订单</span>
+				<div class="orderimalist">
+					<span><img src="image/购物车2.png"/></span><b></b>
+					<span><img src="image/订单.png"/></span><b></b>
+					<img src="image/支付.png" /><b class="activeborder"></b>
+					<span class="activespan"><img src="image/形状-3.png"/></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="confirmmin">
+			<div class="confirmorder">
+				<!--收货地址-->
+				<div class="addressparent" style="padding-bottom: 20px;">
+					<label class="confirmordertitle">收货地址</label>
+					<div class="addreddlable">
+						<div>
+							<span>吴应熊<b>15636546364</b></span>
+							<span>四川省&nbsp;&nbsp;成都市&nbsp;&nbsp;武侯区</span>
+							<span>芙蓉东路210号锦江花园5幢3单元1502</span>
+							<span>默认</span>
+						</div>
+					</div>
+					<div class="addreddlable">
+						<div style="text-align: center;line-height: 165px;">
+							<img src="image/矩形-29-拷贝.png"/>
+							<i style="font-family: simsun; font-size: 14px; color: #999999;">添加新地址</i>
+						</div>
+					</div>
+				</div>
+				<!--商品清单-->
+				<div class="addressparent">
+					<label class="confirmordertitle">商品清单</label>
+					<div class="commoditylist">
+						<div class="listrigth">
+							<span>支付方式</span>
+							<!--
+                        	作者：2998511293@qq.com
+                        	时间：2016-06-01
+                        	描述：商品清单的支付方式
+                        -->
+							<a href="javascript:;">在线支付</a>
+							<a href="javascript:;">货到付款</a>
+							<!--
+                        	作者：2998511293@qq.com
+                        	时间：2016-06-01
+                        	描述：配送方式
+                        -->
+							<span>配送方式</span>
+							<a href="javascript:;">快读物流</a>
+							<a href="javascript:;">上门自提</a>
+							<em><i>自提地点：</i>成都市天府二街蜀都中心<b>修改</b></em>
+						</div>
+						<!--
+                    	作者：2998511293@qq.com
+                    	时间：2016-06-01
+                    	描述：商品清单的商品信息
+                    -->
+						<div class="listleft">
+							<span>
+                    		<img src="img/矢量智能对象.png"/>
+                    		店铺名称<em>dufhudhf</em>
+                    		<i>优惠券</i>
+                    		<b>&yen;15.50红包抵用券</b>
+                    	</span>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/我的订单_03.png" alt="媒体对象">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">订单的标题</h4>
+									<span>规格</span><i>长3600*宽1790*高770m</i>
+								</div>
+							</div>
+							<div class="orderprice">&yen;4740</div>
+							<div class="ordernum">x1</div>
+						</div>
+						<div class="listleft">
+
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/我的订单_03.png" alt="媒体对象">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">订单的标题</h4>
+									<span>规格</span><i>长3600*宽1790*高770m</i>
+								</div>
+							</div>
+							<div class="orderprice">&yen;4740</div>
+							<div class="ordernum">x1</div>
+						</div>
+					</div>
+					<div class="message">
+						<b>留言</b><input type="text" placeholder="添加订单备注，限45个字" />
+					</div>
+					<div class="ordertotal">
+						<span>共<em>3</em>件商品</span>
+						<span>优惠金额：<em>&yen;15.50</em></span>
+						<span>合计：<em>&yen;15.50</em>(运费: <em>&yen;13.00</em>)</span>
+					</div>
+				</div>
+				<div class="addressparent Fornow" style="height: 60px; border: 1px solid #CCCCCC;">
+					<span>积分抵现&nbsp;<em>可用2000积分抵用&yen;20.00</em></span>
+					<div>
+						<input type="radio" value="zhifubao" name="methods" />
+						<label name="zhifubao">使用</label>
+						<input type="radio" value="zhifubao" name="methods" />
+						<label name="zhifubao" class="checked">不使用</label>
+					</div>
+				</div>
+
+			</div>
+
+			<!--提价订单-->
+			<div class="Submitorders">
+				<span>共<em>4</em>件商品&nbsp;商品总额：<b class="totalprice">&yen;18720</b></span>
+				<span>(普通快递运费)：<b>+&yen;18720</b></span>
+				<span>优惠金额：<b>-&yen;18720</b></span>
+				<span>积分提现：<b>-&yen;18720</b></span>
+				<span>应付金额：<b>&yen;495878678</b></span>
+				<a href="#">提交订单</a>
+			</div>
+			<div class="footer">
+				© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$('.Fornow label').click(function() {
+				var radioId = $(this).attr('name');
+				$('.Fornow label').removeAttr('class') && $(this).attr('class', 'checked');
+				$('input[type="radio"]').removeAttr('checked') && $('#' + radioId).attr('checked', 'checked');
+			});
+		});
+	</script>
+
+</html>

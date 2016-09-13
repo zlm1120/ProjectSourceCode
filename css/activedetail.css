@@ -1,0 +1,331 @@
+em,i,b{
+	font-style: normal;
+	font-weight: normal;
+}
+.activedetailcon{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.activedetailmin{
+	overflow: hidden;
+}
+#activedetailid{
+	margin-right: 20px;
+}
+#activedetailid,.activedetailtext{
+	float: left;
+}
+
+#activedetailid, #activedetailimgid,#activedetailimgid img {
+	height: 350px !important;
+	width: 700px !important;
+}
+#activedetaillistid {
+	text-align: right;
+}
+
+.activedetailtext{
+	width: 280px;
+	height: 350px;
+	padding:17px;
+	background-color: #F0F0F0;
+	font-family: "微软雅黑";
+}
+.activedetailtext span{
+	display: block;
+}
+.activedetailtext span em{
+	color: #333333;
+	font-size: 14px;
+	padding-left: 10px;
+}
+/*.activedetailtext span em i{
+	display: block;
+	padding-left: 40px;
+}*/
+.activedetailtext span:not(.activedetailtitle){
+	margin-top: 10px;
+	color: #999999;
+	font-size: 14px;
+}
+.activedetailtext span:nth-child(1){
+	color: #333333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.activedetailtext a{
+	display: block;
+	width: 240px;
+	height: 54px;
+	background-color: #EB6100;
+	text-align: center;
+	line-height: 54px;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.activedetailtext a:focus{
+	outline: none;
+	outline-offset: 0px;
+	text-decoration: none;
+}
+
+
+
+.activedetailitem{
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	padding-left: 22px;
+	background-color: #F0F0F0;
+	padding-bottom: 23px;
+}
+.activedetailitem span{
+	padding-top: 20px;
+	display: block;
+	color: #EB6100;
+	font-size: 36px;
+}
+.activedetailitem p{
+	margin-top: 25px;
+}
+
+
+.activedetailefooter{
+	border: 1px solid #666666;
+	width: 312px;
+	margin: 0 auto;
+	background-color: red;
+	background-color: #666666;
+	height: 48px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-moz-border-radius: 100px;
+	margin-top: 40px;
+} 
+.activedetailefooter span{
+	display: inline-block;
+	font-family: "微软雅黑";
+	padding-top: 0px !important;
+	width: 150px;
+	text-align: center;
+	line-height:40px;
+	height: 40px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.activedetailefooter span i{
+	background: url(../image/images/推荐.png) no-repeat top center;
+	padding-top: 20px;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding-right: 5px;
+}
+.activedetailefooter span em{
+	color: #FFFFFF;
+	font-size: 36p;
+}
+.activedetailefooter span:first-child{
+	border-right: 1px solid #FFFFFF;
+}
+.activedetailefooter span:last-child i{
+	background: url(../image/images/收藏.png) no-repeat top center;
+}
+
+
+.discuss{
+	background-color: #F0F0F0;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+.discuss .disusstitle span{
+}
+.discuss .disusstitle span{
+	display: block;
+	font-size: 36px;
+	color: #666666;
+	margin-bottom: 35px;
+}
+.discuss .disusstitle div{
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+.discuss .disusstitle div img{
+	margin-right: 30px;
+	height: 50px;
+}
+.discuss .disusstitle div input{
+	height: 60px;
+	width: 889px;
+	border: 1px solid #000000 !important;
+	background-color: #F0F0F0 !important;
+	outline: none;
+}
+.discuss .disusstitle div a{
+	display: block;
+	width: 91px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	float: right;
+	margin-top: 10px;
+	background-color: #333333;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-bottom: 15px;
+}
+
+.discuss .discusscon .media{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #CCCCCC;
+	font-family: "微软雅黑";
+	
+}
+
+/*.discuss .discusscon .media  .media-body .media-heading span{
+	height: 24px;
+	line-height: 24px;
+}*/
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(1){
+	color: #333333;
+	font-size: 18px;
+}
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(1) i{
+	background: url(../image/images/Rounded-Rectangle-81-copy.png);
+	width: 30px;
+	display: inline-block;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	font-size: 12px;
+	color: #ffffff;
+	padding-left: 5px;
+	margin-left: 10px;
+}
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(1) em{
+	background-color: #e60012;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(2){
+	display: block;
+	float: right;
+	/*height: 22px;
+	line-height: 22px;*/
+}
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(2) img{
+	padding-left: 10px;
+}
+.discuss .discusscon .media  .media-body .media-heading span:nth-child(2) b{
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+	display: inline-block;
+	/*height: 22px;
+	line-height: 22px;*/
+	margin-left: 8px;
+}
+.discuss .discusscon .media  .media-body span{
+	display: block;
+}
+.discuss .discusscon .media  .media-body span:nth-child(2){
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.discuss .discusscon .media  .media-body span:nth-child(2) em{
+	margin-left: 19px;
+	display: inline-block;
+}
+.discuss .discusscon .media  .media-body span:nth-child(3){
+	color: #666666;
+	font-size: 14px;
+}
+
+
+/*
+ * 弹出层的样式
+ */
+.modal-content{
+	border-radius: 0px;
+	font-family: simsun;
+	width: 500px;
+	height: 449px;
+}
+.modal{
+	position: absolute !important;
+	left: 50% !important;
+	top: 50%;
+	transform: translate(-50%) !important;
+	height: 600px;
+}
+.modal-header{
+    background-color: #F0F0F0;
+    height: 60px;
+}
+.modal-title {
+    margin: 0;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-body{
+	padding: 0px;
+}
+.modal-body div{
+	margin: 15px 44px;
+}
+.modal-body div label{
+	font-size: 14px;
+	color: #666666;
+	width: 75px;
+	text-align: left;
+}
+.modal-body div input{
+	width: 330px;
+	height: 36px;
+	outline: none;
+}
+
+.btn {
+	padding: 0px;
+    line-height: 36px;
+    width: 120px;
+    height: 36px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+}
+.modal-footer{
+	text-align: center;
+	border-top: 0px;
+}
+.modal-footer .btn:nth-child(1){
+	background-color: #3cb1f7;
+}
+.modal-footer .btn:nth-child(2){
+	background-color: #434343;
+}

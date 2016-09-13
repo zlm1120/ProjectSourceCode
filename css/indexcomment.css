@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Pcontain {
+	background-color: #ffffff !important;
+}
+
+.PL-right {
+	margin-left: 100px;
+}
+
+.PL-right div {
+	border: 2px solid #3CB1F7;
+	overflow: hidden;
+}
+
+.PL-right select,
+.PL-right input {
+	float: left;
+}
+
+.PL-right select {
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../image/多边形-1-拷贝.png) no-repeat scroll right center transparent;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	outline: none;
+	border: 0px !important;
+	border-right: 1px solid #cccccc !important;
+	font-family: simsun;
+	color: #808080;
+	font-size: 12px;
+}
+
+.PL-right input.search-text {
+	width: 400px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+}
+
+.PL-right input.search-button {
+	background-color: #3CB1F7 !important;
+	color: #ffffff !important;
+	font-family: "微软雅黑" !important;
+	font-size: 14px !important;
+	height: 40px !important;
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+}
+
+.car {
+	background-color: #F1A400 !important;
+	font-family: "微软雅黑" !important;
+	font-size: 16px !important;
+	color: #FFFFFF !important;
+}
+
+
+/*nav-idnex*/
+
+.nav-index {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.nav-index ul {
+	overflow: hidden;
+}
+
+.nav-index ul li {
+	float: left;
+	display: block;
+	list-style: none;
+	height: 100%;
+	line-height: 60px;
+	margin-right: 40px;
+}
+
+.nav-index ul li a {
+	color: #333333;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.nav-index ul li:first-child {
+	width: 282px;
+	text-align: center;
+	background-color: #3CB1F7;
+}
+
+.nav-index ul li:first-child a {
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 24px;
+}

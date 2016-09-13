@@ -1,0 +1,376 @@
+.Plogo span.carheader {
+	display: inline-block;
+	height: 145px;
+	line-height: 145px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+
+.carbody {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bodytitle {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.bodytitle em {
+	color: #3CB1F7 !important;
+	font-style: normal;
+	padding-left: 5px;
+}
+
+.bodylist {}
+
+.bodylist .bodycom {
+	padding-left: 14px;
+	border-top: 1px solid #CCCCCC;
+	margin-bottom: 12px;
+}
+
+.bodylist .bodylisttitle {
+	height: 45px;
+	line-height: 45px;
+	background-color: #F0F0F0;
+}
+
+.bodylist .bodylisttitle span {
+	display: inline-block;
+	padding-right: 125px;
+	color: #999999;
+	font-family: simsun;
+	font-size: 14px;
+}
+
+.bodylist .bodylisttitle span input {
+	vertical-align: middle;
+	margin-top: 0px !important;
+}
+
+.listcon {
+	margin-bottom: 12px;
+	position: relative;
+}
+
+.listcontitle {
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	background-color: #F0F0F0;
+	border-top: 1px solid #CCCCCC;
+	padding-left: 14px;
+	overflow: hidden;
+	font-family: simsun;
+	font-size: 14px;
+}
+
+.listcontitle span {
+	display: block;
+}
+
+.listcontitle span:nth-child(1) {
+	float: left;
+	color: #666666;
+	font-weight: bold;
+}
+
+.listcontitle span:nth-child(2) {
+	float: right;
+	margin-right: 38px;
+	color: #F1A400;
+}
+
+.listcontitle span:nth-child(2) i {
+	font-style: normal;
+	border: 1px dotted #f1b537;
+	margin-left: 10px;
+	width: 70px;
+	text-align: center;
+	padding: 4px;
+	height: 35px;
+}
+
+.listcontitle span:nth-child(2) i img {
+	padding-left: 5px;
+}
+
+.listconbody {
+	padding-left: 14px;
+	border: 1px solid #E6E6E6;
+}
+
+.listconbody table {
+	height: 105px;
+}
+
+.listconbody table tr td:not(.listbodyfirst) {
+	border-right: 1px solid #E6E6E6;
+}
+
+.listconbody table tr td:nth-child(1) input {
+	width: 15px;
+	height: 15px;
+	margin-right: 25px;
+}
+
+.listconbody table tr td:nth-child(2) div.media {
+	width: 325px;
+	font-family: simsun;
+	font-size: 14px;
+	padding-right: 80px;
+}
+
+.listconbody table tr td:nth-child(2) div.media .media-heading {
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+}
+
+.listconbody table tr td:nth-child(2) div.media span {
+	color: #999999;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.listconbody table tr td:nth-child(2) div.media i {
+	font-style: normal;
+	display: block;
+}
+
+.listconbody table tr td.listprice {
+	width: 120px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+}
+
+.listconbody table tr td em {
+	display: block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #FF0000;
+	font-style: normal;
+	text-align: center;
+}
+
+.listconbody table tr td:nth-child(4) {
+	width: 160px;
+}
+
+.listconbody table tr td:nth-child(4) a,
+.listconbody table tr td:nth-child(4) input {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #999999;
+}
+
+.detailnum {
+	line-height: 27px;
+	text-align: center;
+}
+
+.detailnum a,
+.detailnum input {
+	height: 100%;
+	border: 1px solid #999999;
+	display: inline-block;
+	width: 27px;
+	text-align: center;
+}
+
+.detailnum a:first-child {
+	margin-right: -4px;
+	border-right: 0px !important;
+}
+
+.detailnum a:nth-child(3) {
+	margin-left: -4px;
+	border-left: 0px !important;
+}
+
+.listconbody table tr td:last-child {
+	width: 220px;
+	text-align: center;
+}
+
+.listconbody table tr td:last-child a {
+	font-family: simsun;
+	font-size: 12px;
+	color: #666666;
+	display: block;
+}
+
+.borderactive {
+	border-bottom: 1px solid #E6E6E6;
+}
+.borderactive1{
+	border-bottom: 0px !important;
+}
+
+.carfooter {
+	height: 45px;
+	line-height: 45px;
+	background-color: #F0F0F0;
+	width: 100%;
+	overflow: hidden;
+	padding-left: 14px;
+}
+
+.carfooter span {
+	display: block;
+	float: left;
+	font-family: simsun;
+	font-size: 14px;
+}
+
+.carfooter span:first-child {
+	color: #999999;
+	margin-right: 48px;
+}
+
+.carfooter span:first-child input {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-top: 0px !important;
+}
+
+.carfooter span:nth-child(2) a {
+	display: inline-block;
+	color: #666666;
+}
+
+.carfooter span:nth-child(2) i {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style: normal;
+}
+
+.carfooter span:nth-child(3) {
+	margin-left: 255px;
+	color: #666666;
+	margin-right: 70px;
+}
+
+.carfooter span em {
+	font-style: normal;
+	color: red;
+	font-family: "微软雅黑";
+}
+
+.carfooter span:nth-child(4) {
+	color: #666666;
+	margin-right: 25px;
+}
+
+.carfooter span:last-child {
+	width: 165px;
+	background-color: #F1A400;
+}
+
+.carfooter span:last-child a {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+}
+
+/*优惠券的样式*/
+.discount{
+	border: 1px solid #F1A400;
+	padding: 5px;
+	position: absolute;
+	right: 38px;
+	background-color: #FFFFFF;
+	top: 33px;
+	display: none;
+}
+.discount .discountlist{
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.discountlist:nth-child(1){
+	margin-top: 15px;
+}
+.discountlist span{
+	display:block;
+	float: left !important;
+}
+.discountlist span:nth-child(1){
+	background-color: #fe8202;
+	width: 53px;
+	height: 31px;
+	text-align: center;
+	margin-right: 10px;
+}
+.discountlist span:nth-child(1) i{
+	line-height: 27px;
+	border: 1px dotted #FFFFFF;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 50px;
+	height: 27px;
+	margin-right: 3px;
+	background: url(../image/多边形-3.png) no-repeat left center;
+	border-left: 0px !important;
+	font-family: "微软雅黑" !important;
+	font-size: 14px !important;
+	color: #FFFFFF;
+	font-weight: normal !important;
+	font-style: normal;
+	display: block;
+}
+.discountlist span:nth-child(2){
+	font-family: simsun !important;
+	font-size: 14px !important;
+	color: #666666 !important;
+}
+.discountlist span:nth-child(2) em{
+	display: block;
+	color: #999999;
+	margin-top: -5px;
+	font-style: normal;
+}
+.discountlist span:nth-child(3){
+	font-family: simsun;
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	margin-left: 27px;
+	margin-top: 3px;
+	
+}
+
+/*点击立即领取按钮后的样式*/
+.discountlist span.discountactive{
+	border: 0px !important;
+}
+.listcontitle span.discountparent{
+	color: #F1A400; 
+}
+.listcontitle span.discountparent i{
+	border:1px solid #F1A400;
+	border-bottom: 1px solid #FFFFFF !important;
+	z-index: 100;
+}

@@ -1,0 +1,65 @@
+	.invitationCon span:nth-child(4) {
+		margin-top: 48px;
+	}
+	
+	.invitationCon span:nth-child(4) label {
+		width: 400px;
+		height: 58px;
+		color: #666666;
+		font-family: "微软雅黑";
+		font-size: 16px;
+		border: 1px solid #666666;
+		text-align: left;
+		line-height: 58px;
+	}
+	
+	.invitationCon span:nth-child(4) label i {
+		text-align: center;
+		font-style: normal;
+		display: inline-block;
+		width: 150px;
+		font-weight: normal;
+	}
+	
+	.invitationCon span:nth-child(4) label input {
+		width: 248px;
+		height: 100%;
+		border: 0px !important;
+		outline: none;
+	}
+	
+	.invitationCon span:nth-child(4) em {
+		font-style: none;
+		color: red;
+		font-style: normal;
+		padding-left: 10px;
+		display: none;
+	}
+	
+	.invitationCon span:nth-child(5) label {
+		font-family: simsun !important;
+		font-size: 12px !important;
+		color: #666666 !important;
+		text-align: left;
+		width: 400px;
+		font-weight: normal !important;
+	}
+	
+	.invitationCon span:last-child {
+		margin-top: 26px;
+	}
+	
+	.invitationCon span:last-child a {
+		display: inline-block;
+		width: 400px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: #ffffff;
+		font-family: "微软雅黑";
+		font-size: 18px;
+		background-color: #3CB1F7;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+	}
