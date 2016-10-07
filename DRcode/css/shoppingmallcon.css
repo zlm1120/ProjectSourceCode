@@ -1,0 +1,63 @@
+.shoppingmallmin{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.shoppingmallmin div:first-child{
+	color: #333333;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#shoppingdivid, #shoppingimgid,#shoppingimgid img {
+	height: 400px !important;
+}
+#shoppinglistid {
+	text-align: right;
+}
+
+.commenttitle span.shoppingmalltitle{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: simsun;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+}
+.mintitle p{
+	margin-bottom: 30px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #666666;
+}
+em{
+	font-style: normal;
+}
+.mincontent{
+	overflow: hidden;
+}
+.micontentlist{
+	float: left;
+	width: 256px;
+	margin-bottom: 10px;
+}
+.micontentlist img, .micontentlist span{
+	display: block;
+}
+.micontentlist div{
+	padding-left: 10px;
+	height: 70px;
+	background-color: #F0F0F0;
+	padding-top: 15px;
+}
+.micontentlist div span{
+	font-family: simsun;
+	color: #333333;
+	font-size: 16px;
+}
+.micontentlist div span:last-child{
+	font-size: 16px;
+	color: #666666;
+}

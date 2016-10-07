@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.myfundingdiv{
+	float: left;
+}
+.myfundingdiv span{
+	display: block;
+	font-family: "微软雅黑";
+}
+.myfundingdiv span:nth-child(1){
+	margin-top: 30px;
+	font-family: simsun;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.myfundingdiv div.fundingbtngroup a{
+	display: inline-block;
+	width:153px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	background-color: #EEEEEE;
+}
+.myfundingdiv div.fundingbtngroup a:not(.firstclick){
+	margin-left: -4px;
+}
+.myfundingdiv div.fundingbtngroup a.activeclick{
+	color: #FFFFFF;
+	background-color: #3CB1F7;
+}
+
+
+.myfundingdiv .fundinglist{
+	overflow: hidden;
+}
+.myfundingdiv .fundinglist div{
+	margin-top: 9px;
+	width: 245px;
+	float: left;
+}
+.myfundingdiv .fundinglist div:not(.notrist){
+	margin-left: 6.5px;
+}
+.myfundingdiv .fundinglist div span{
+	margin-top: 5px;
+}
+.myfundingdiv .fundinglist div span:nth-child(2){
+	color: #333333;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.myfundingdiv .fundinglist div span:nth-child(3){
+	font-family: simsun;
+	font-size: 14px;
+	color: #333333;
+}
+.myfundingdiv .fundinglist div span:nth-child(3) em{
+	color:#3cb1f7 !important;
+	font-style: normal;	
+}

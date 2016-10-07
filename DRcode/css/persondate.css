@@ -1,0 +1,257 @@
+em,i,b{
+	font-weight: normal;
+	font-style: normal;
+}
+.leftpersondata{
+	overflow: hidden;
+	margin-top: 50px;
+	width: 1000px;
+}
+/*
+ * 个人资料
+ */
+.persondate{
+	overflow: hidden;
+	height: 140px;
+}
+.persondatas{
+	float: left;
+	width: 290px;
+	border-right: 1px solid #CCCCCC;
+}
+.persondatas .media{
+	margin-top: 9px;
+}
+.persondatas .media .media-heading{
+	font-family: "微软雅黑" !important;
+	font-size: 24px !important;
+	color: #333333 !important;
+	margin-top: 15px;
+}
+.persondatas .media .media-heading img{
+	margin-left: 10px;
+}
+.persondatas .media .media-body span{
+	font-family: simsun;
+	font-size: 16px;
+	color: #999999;
+	margin-top: 11px;
+}
+.persondatas .media .media-body span em{
+	background: url(../image/images/Rounded-Rectangle-81-copy.png) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 21px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 21px;
+	padding-left: 5px;
+}
+.persondatas .media .media-body a{
+	display: block;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: simsun;
+	background-color: #3CB1F7;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 11px;
+}
+.prsoncar{
+	border-right: 1px solid #CCCCCC;
+	width:240px;
+	float: left;
+	text-align: center;
+	padding: 0px 44px;
+}
+.prsoncar span{
+	display: inline-block;
+	color: #666;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	width: 64px;
+	height: 59px;
+	line-height: 59px;
+}
+.prsoncar span em{
+	color: red;
+}
+.prsoncar span:first-child{
+	background: url(../image/images/个人中心_04.png) no-repeat top center;
+	padding-top: 20px;
+}
+.prsoncar span:nth-child(2){
+	background: url(../image/images/个人中心_05.png) no-repeat top center;
+	padding-top: 20px;
+}
+.prsoncar span:nth-child(3){
+	background: url(../image/images/个人中心_10.png) no-repeat top center;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+.prsoncar span:nth-child(4){
+	background: url(../image/images/个人中心_09.png) no-repeat top center;
+	padding-top: 20px;
+}
+.personmoney{
+	margin-left: 40px;
+	float: left;
+}
+.personmoney div label{
+	font-weight: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	text-align: right;
+	width: 57px;
+}
+.personmoney div span{
+	color: #666666 !important;
+	font-weight: bold;
+	font-family: simsun;
+	font-size: 16px;
+}
+
+.personmoney div:nth-child(1) span{
+	color: red !important;
+}
+.personmoney div:nth-child(1) a{
+	width: 57px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	display: inline-block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-left: 20px;
+}
+/*
+ * 我的订单
+ */
+.personorder{
+	width: 739px;
+	float: left;
+}
+.personorder  .personodertitle{
+	margin-top: 30px;
+	border-bottom: 1px solid #CCCCCC;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+.personorder  .personodertitle label{
+	font-weight: bold;
+	font-family: simsun;
+	font-size: 16px;
+}
+.personorder  .personodertitle a{
+	display: inline-block;
+	float: right;
+	font-family: simsun;
+	font-size: 12px;
+	color: #3CB1F7;
+}
+
+.personorder  .personcon table{
+	width: 100%;
+	font-family: "微软雅黑";
+	width: 735px;
+	border: 1px solid #CCCCCC;
+}
+.personorder  .personcon thead tr.persondataorder{
+	height: 30px;
+}
+.personorder  .personcon thead tr.persondataorder th:last-child{
+	text-align: right;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+.personorder  .personcon thead tr.persondataorder th:first-child{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #333333;
+	padding-top: 15px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.personorder  .personcon table tr td span,
+.personorder  .personcon table tr td a{
+	display: block;
+}
+.personorder  .personcon table tr.tablecon{
+	height: 117px;
+}
+.personorder  .personcon table tr.tablecon td:first-child{
+	width: 140px;
+	text-align: left;
+	padding-left: 10px;
+}
+.personorder  .personcon table tr.tablecon td{
+	width: 130px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333333;
+}
+.personorder  .personcon table tr.tablecon td:nth-child(4) em{
+	color: red !important ;
+}
+.personorder  .personcon table tr.tablecon td:last-child{
+	color: #F1A400;
+	font-family: simsun;
+}
+.personorder  .personcon table tr.tablecon td:last-child a{
+	width: 83px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	background-color: #F1A400;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+/*
+ * 会员推荐
+ */
+.tuijia{
+	float: left;
+	width: 240px;
+	margin-left: 15px;
+}
+.tuijia  .personodertitle{
+	margin-top: 30px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+}
+.tuijia  .personodertitle label{
+	font-weight: bold;
+	font-family: simsun;
+	font-size: 16px;
+}
+.tuijiancon span{
+	display: block;
+}
+.tuijia div.tuijiancon span:nth-child(2){
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666666;
+}
+.tuijia div.tuijiancon span:nth-child(3){
+	font-family: simsun;
+	font-size: 14px;
+	color: #999999;
+}
+.tuijiancon:not(.firsttuijan){
+	margin-top: 10px;
+}

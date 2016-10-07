@@ -1,0 +1,53 @@
+
+.wrapperOut{
+	width: 100%;
+	background-color: #F0F0F0;
+	font-family: simsun;
+}
+/*.wrapperInner{
+	height: 30px
+	line-height: 30px;
+}*/
+
+.wrapperInner a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+}
+#select{
+	appearance:none;
+   -moz-appearance:none;
+   -webkit-appearance:none;
+   background: url(../../img/login/select.png) no-repeat scroll right center transparent;
+   padding-right: 40px;
+   outline: none;
+   border: 0px !important;
+   color: #333333;
+   font-family: "微软雅黑";
+   font-size: 12px;
+}
+#select::-ms-expand { 
+	display: none; 
+}
+.headerleft {
+	float: left;
+}
+.headerrigth {
+	float: right;
+	overflow: hidden;
+	font-family: "微软雅黑" !important;
+	font-size: 10px;
+}
+.headerrigth ul li {
+	float: left;
+	padding-left: 33px;
+}
+.headerrigth ul li a{
+	font-size: 12px;
+}
+.headerrigth ul li:first-child span{
+	padding-left: 20px;
+}
+.headerrigth ul li:first-child span a{
+	color: #248bcd;
+}

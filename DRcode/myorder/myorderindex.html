@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+
+		<link rel="stylesheet" href="../css/Person/inviteCode.css" />
+		<link rel="stylesheet" href="../css/myorder.css" />
+		<script type="text/javascript" src="../js/myordercontent.js"></script>
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		
+		<!--<script type="text/javascript" src="../js/main.js" ></script>-->
+	</head>
+
+	<body>
+		<div class="mtordermain">
+			<div class="pHeader">
+				<!--page header-->
+				<div class="Pheader">
+					<div class="pselect">
+						<select>
+						<option>宜宾</option>
+					</select>
+					</div>
+					<div class="Pheader-right">
+						<ul>
+							<li>你好</li>
+							<li>请<a href="../login/login.html">【登录】</a></li>
+							<li><a href="../login/Rigister.html">免费注册</a></li>
+							<li><a href="../myorder/myorderindex.html">我的订单</a></li>
+							<li><a href="../integral.html">积分商城</a></li>
+							<li><a href="../mycollect/mycollectindex.html">我的收藏</a></li>
+							<li><a href="../shopping mall.html">商贸城</a></li>
+							<li><a href="#">我的消息</a></li>
+							<li>
+								<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--pheader end-->
+			</div>
+			<!--logo header-->
+			<div class="Pcontain">
+				<div class="Plogo">
+					<div class="Pl-left"></div>
+					<div class="PL-center">
+						<ul>
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="javascript:void(0);" id="setpass">账户设置</a></li>
+							<li><a href="javascript:void(0);">消息</a></li>
+						</ul>
+					</div>
+					<div class="PL-right">
+						<div>
+							<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+							<input type="submit" class="search-button" value="搜索" />
+							<div class="navs">
+								<a href="#">商品</a>
+								<a href="#">新闻</a>
+								<a href="#">公益</a>
+							</div>
+						</div>
+					</div>
+					<div class="car" style="float: right;">
+						<a href="../car.html" target="_blank" style="color: #3cb1f7;"><img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="InvitationContent">
+				<div class="invitationNav">
+					<div class="order"><span class="activecode"><a href="myorderindex.html">我的订单</a></span></div>
+					<div class="pay">
+						<span>我的资产</span>
+						<ul>
+							<li><a href="javascript:void(0);">优惠券</a></li>
+							<li><a href="../myasset/myassetintegral.html">积分(2000)</a></li>
+							<li><a href="../myasset/membershipcard.html">会员卡</a></li>
+							<li><a href="../myasset/packet.html">红包</a></li>
+							<li><a href="../myasset/walletl.html">钱包</a></li>
+						</ul>
+					</div>
+					<div class="collect">
+						<span>我的收藏</span>
+						<ul>
+							<li><a href="../mycollect/mycollectindex.html">商品收藏</a></li>
+							<li><a href="../mycollect/shopcollect.html">店铺收藏</a></li>
+							<li><a href="../mycollect/activecollect.html">活动收藏</a></li>
+							<li><a href="../mycollect/newcollect.html">新闻收藏</a></li>
+						</ul>
+					</div>
+					<div class="crowdfunding">
+						<span>我的众筹</span>
+						<ul>
+							<li><a href="../myfunding/myfundingindex.html">项目众筹</a></li>
+							<li><a href="../myfunding/myfunding1.html">产品众筹</a></li>
+							<li><a href="../myfunding/myfunding2.html">发起的众筹</a></li>
+						</ul>
+					</div>
+					<div class="code">
+						<span><a href="../mycode/mycodeindex.html">我的邀请码</a></span>
+					</div>
+					<div class="recode">
+						<span><a href="../BrowsingHistory/BrowsingHistory.html">浏览记录</a></span>
+					</div>
+					<div class="merchant">
+						<span><a href="javascript:void(0);">商家管理</a></span>
+					</div>
+				</div>
+
+				<div class="mamincontnt">
+					<div class="myorderContent">
+						<span class="ordertitle">我的订单</span>
+						<div class="btn-group">
+							<button>全部订单(2)</button>
+							<button>代付款(2)</button>
+							<button>待发货(2)</button>
+							<button>待收货(2)</button>
+							<button>待评价（2）</button>
+							<button>已完成(2)</button>
+							<button>退款/售后</button>
+						</div>
+						<div class="orderlist">
+							<table>
+								<thead>
+									<th>订单信息</th>
+									<th>收货人</th>
+									<th>金额</th>
+									<th>订单状态</th>
+									<th>操作</th>
+								</thead>
+								<tbody>
+									<tr style="border: 0px solid #FFFFFF; height: 10px;"></tr>
+									<tr class="ordertime">
+										<td><em>2014-1-23:3445</em><em style="padding-left: 10px;">订单编号</em></td>
+										<td colspan="4">店铺的头像</td>
+									</tr>
+									<tr class="orderdetail">
+										<td class="orderlistfirst">
+											<div class="media">
+												<a class="pull-left" href="#">
+													<img class="media-object" src="../img/我的订单_03.png" alt="媒体对象">
+												</a>
+												<div class="media-body">
+													<h4 class="media-heading">订单的标题</h4>
+													<span>规格</span><i>商品的长宽高商品的长宽</i>
+													<em>x1</em>
+												</div>
+											</div>
+										</td>
+										<td>下订单的人</td>
+										<td>&yen;<span id="price">4567</span><span style="display: block;">付款方式</span></td>
+										<td class="orderstatus">待付款</td>
+										<td class="orderaction">
+											<a href="#" class="orderpay">立即付款</a>
+											<a href="#">详情</a>
+											<a href="javascript:;">删除订单</a>
+										</td>
+									</tr>
+									<tr style="border: 0px solid #FFFFFF; height: 10px;"></tr>
+
+									<!--secound list-->
+									<tr class="ordertime">
+										<td><em>2014-1-23:3445</em><em style="padding-left: 10px;">订单编号</em></td>
+										<td colspan="4">店铺的头像</td>
+									</tr>
+									<tr class="orderdetail">
+										<td class="orderlistfirst">
+											<div class="media">
+												<a class="pull-left" href="#">
+													<img class="media-object" src="../img/我的订单_03.png" alt="媒体对象">
+												</a>
+												<div class="media-body">
+													<h4 class="media-heading">订单的标题</h4>
+													<span>规格</span><i>商品的长宽高商品的</i>
+													<em>x1</em>
+												</div>
+											</div>
+											<div class="media">
+												<a class="pull-left" href="#">
+													<img class="media-object" src="../img/我的订单_03.png" alt="媒体对象">
+												</a>
+												<div class="media-body">
+													<h4 class="media-heading">订单的标题</h4>
+													<span>规格</span><i>商品的长宽高商品的</i>
+													<em>x1</em>
+												</div>
+											</div>
+										</td>
+										<td>下订单的人</td>
+										<td>&yen;<span id="price">4567</span><span style="display: block;">付款方式</span></td>
+										<td class="orderstatus">待付款</td>
+										<td class="orderaction">
+											<a href="#" class="orderpay">立即付款</a>
+											<a href="#">详情</a>
+											<a href="javascript:;">删除订单</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="orderlike">
+							<div class="orderfootertop">
+								<span>猜你喜欢</span>
+								<a href="javascript:;"><img src="../image/Shape-4.png" />换一批</a>
+							</div>
+							<div class="orderlikecontent">
+								<div class="likecon">
+									<img src="../img/我的订单_07.png" />
+									<span>多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店</span>
+									<span>&yen;348378<del>&yen;67</del></span>
+								</div>
+								<div class="likecon">
+									<img src="../img/我的订单_07.png"/>
+									<span>多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店</span>
+									<span>&yen;348378<del>&yen;67</del></span>
+								</div>
+								<div class="likecon">
+									<img src="../img/我的订单_07.png" />
+									<span>多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店</span>
+									<span>&yen;348378<del>&yen;67</del></span>
+								</div>
+								<div class="likecon">
+									<img src="../img/我的订单_07.png"/>
+									<span>多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店多乐士官方旗舰店</span>
+									<span>&yen;348378<del>&yen;67</del></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+<script type="text/javascript">
+	$(".pay li").each(function(){
+		$(this).click(function(){
+			var idnex=$(this).index();
+			//dingbu 
+			$.ajax( {
+        		url: "../mycollect/newcollect.html", //这里是静态页的地址
+        		type: "GET", //静态页用get方法，否则服务器会抛出405错误
+        		success: function(data){
+           		 	var result = $(data).find(".mycollectdiv");
+           			 $(".mamincontnt").html(result);
+        		}
+			});
+			/*
+			$.ajax( {
+        		url: "http://127.0.0.1:8020/tc-api/myorder/myorderindex.html", //这里是静态页的地址
+        		type: "GET", //静态页用get方法，否则服务器会抛出405错误
+        		success: function(data){
+           		 	var result = $(data).find("另一个html页面的指定的一部分");
+           			 $("本页面div").html(result);
+        		}
+			});
+			$.ajax( {
+        		url: "http://127.0.0.1:8020/tc-api/myorder/myorderindex.html", //这里是静态页的地址
+        		type: "GET", //静态页用get方法，否则服务器会抛出405错误
+        		success: function(data){
+           		 	var result = $(data).find("另一个html页面的指定的一部分");
+           			 $("本页面div").html(result);
+        		}
+			});*/
+		});
+		
+	});
+</script>
+</html>

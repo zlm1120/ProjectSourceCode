@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/rigister/rigister-con.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js" ></script>
+	</head>
+	<body>
+		<!--rigister content -->
+			<div class="rigister-con" id="rigister-con">
+				<span>用户注册协议</span>
+				<div class="rc">
+					用户注册的内容距离上下左右各20xp
+				</div>
+				<div class="rigisterBtn">同意并继续</div>
+			</div>
+			<script>
+				$(function(){
+					$(".rigisterBtn").click(function(){
+						$('.rigister-con').css("display",'none');
+					})
+				})
+			</script>
+	</body>
+</html>

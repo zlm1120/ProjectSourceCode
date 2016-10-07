@@ -1,0 +1,108 @@
+.body{
+}
+.first{
+	margin-top: 51px !important;
+}
+.rigisterbody{
+	margin: 0 auto;
+	width: 650px;
+	height: 60px;
+	background-color: #FFFFFF;
+	margin-bottom: 40px;
+}
+.body{
+	height: 60px;
+	border: 1px solid #dcdcdc;
+	width: 420px;
+	float: left;
+}
+.labels{
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	width: 120px;
+}
+.body input{
+	height: 100%;
+	width: 290px;
+	border: 0px !important;
+	background-color: #FFFFFF;
+	padding-left: 8px;
+	outline: none;
+	line-height: 60px;
+}
+.inforParent{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	padding-left: 10px;
+}
+#member{
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: simsun;
+	width: 120px;
+	margin: 15px 10px;
+	cursor: pointer;
+}
+/*nth(2) style*/
+.number{
+	width: 300px;
+}
+.number input{
+	width: 100px;
+}
+.content{
+	height: 30px !important;
+	line-height: 30px !important;
+	margin-top: -20px;
+}
+.content em{
+	color: #3cb1f7;
+	font-style: normal;
+}
+#rigister{
+	height: 12px;
+	width: 12px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 0px !important;
+	line-height: 12px;
+}
+.content i{
+	font-style: normal;
+	height: 15px;
+	color: #999999;
+	display: inline-block;
+	text-align: center;
+	line-height: 15px;
+	margin-bottom: 25px;
+}
+
+/*submit style*/
+.rigisterbody input[type="button"]{
+	display: block;
+	width: 420px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #3CB1F7;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	font-family:"微软雅黑";
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}

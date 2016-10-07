@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="../css/comment/basestyle.css" />
+		<link rel="stylesheet" href="../css/comment/header.css" />
+		<!--<link rel="stylesheet" href="../css/login/login.css" />-->
+		<link rel="stylesheet" href="../css/rigister/rigister-header.css" />
+		<link rel="stylesheet" href="../css/rigister/rigister.css" />
+		<link rel="stylesheet" href="../css/comment/infor.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="../js/body/ipaddress.js" ></script>
+		<script type="text/javascript" src="../js/login/rigister.js" ></script>
+		<script type="text/javascript" src="../js/jquery-1.7.2.js" ></script>
+		
+		<link rel="stylesheet" href="../css/rigister/rigister-con.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+		
+		
+		<style type="text/css">
+			.modealactive{
+				background-color: #000000;
+				position: absolute;
+				z-index: 50;
+				opacity: 0.5;
+				filter:alpha(opacity=50);
+    			-moz-opacity:0.5;
+    			-khtml-opacity:0.5;
+    			width: 100%;
+			}
+			.modleactive{
+				z-index: 1000;
+			}
+		</style>
+		<script type="text/javascript">
+		$(function(){	
+			var phone;
+			$('#Rphone input').blur(function(){
+				phone=$('#Rphone input').val();
+			});
+			sessionStorage.setItem('phone',phone);
+			$('#btn').click(function(){
+				var rigister=$('#rigister').attr();
+				if(rigister){
+				console.log(heigths);
+				var heigths=window.screen.height;
+					$('#rigister-con').css('display','block');
+					$('.modeal').addClass('modealactive').css('height',heigths+"px");
+					$('#rigister-con').addClass('modleactive');
+				}else{
+					$('#rigister-con').css('display','none');
+				}
+			});
+			$('.rigisterBtn').click(function(){
+				$('#rigister-con').css('display','none').removeClass('modleactive');
+				$('.modeal').removeClass('modealactive');
+			});
+			});	
+		</script>
+	</head>
+
+	<body>		
+		<div class="modeal">
+		<div class="wrapperInner" >
+			<div class="logo">
+				<div class="logo-brand"><a href="../index.html"><img src="../img/login/注册_03.png"/></a></div>
+				<div class="welcomeLogin">欢迎登录</div>
+				<div class="admin"><a>已有账号</a><a href="login.html">登录</a></div>
+			</div>
+		</div>
+		<!--body-->
+		<!--<div class="body">-->
+			<div class="rigisterbody first">
+				<div class="body" id="Rphone">
+					<span class="labels">请输入手机号：</span>
+					<input type="text" class="text" value="" id="Rphone"/>
+				</div>
+				<div class="inforParent phone">
+					<span class="infor">手机号不正确手机号不正确</span>
+				</div>			
+			</div>
+			<div class="rigisterbody">
+				<div class="body number" id="Rnumber">
+					<span class="labels">请输入验证码：</span>
+					<input type="text" class="text"/>
+				</div>
+				<div class="inforParent member">
+					<span id="member" style="float: left;">获取验证码</span>
+					<span class="infor" style=" float: left; height: 60px; line-height: 60px;">hfduhuhu</span>
+				</div>			
+			</div>
+			<div class="rigisterbody">
+				<div class="body" id="Rpass">
+					<span class="labels">设置密码：</span>
+					<input type="text" class="text"/>
+				</div>
+				<div class="inforParent setpass">
+					<span class="infor">hfduhuhu</span>
+				</div>			
+			</div>
+			<div class="rigisterbody">
+				<div class="body" id="Rpass1">
+					<span class="labels">确认密码：</span>
+					<input type="text" class="text"/>
+				</div>
+				<div class="inforParent confirempass">
+					<span class="infor">hfduhuhu</span>
+				</div>			
+			</div>
+			<div class="rigisterbody">
+				<div class="body">
+					<span class="labels">确认邀请码：</span>
+					<input type="text" class="text"  id="Rmember"/>
+				</div>
+				<div class="inforParent yaoqing">
+					<span class="infor">hfduhuhu</span>
+				</div>			
+			</div>	
+			<div class="rigisterbody  content">
+				<input type="checkbox" id="rigister" value="同意注册协议XXXXX" checked="checked"/><i>同意注册协议<em>XXXXX</em></i>
+			</div>
+			<div class="rigisterbody last">
+				<input type="button" value="完成"  id="btn"/>
+			</div>
+		</div>
+			<div class="rigister-con" id="rigister-con">
+				<span>用户注册协议</span>
+				<div class="rc">
+					用户注册的内容距离上下左右各20xp
+				</div>
+				<div class="rigisterBtn">同意并继续</div>
+			</div>
+			
+			<div class="footer" style="position: absolute; bottom: 0px;">
+			© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+		</div>
+	</body>
+</html>

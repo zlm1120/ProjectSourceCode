@@ -1,0 +1,20 @@
+.admin{
+	/*padding-right: 152px;*/
+	height: 80px;
+	line-height: 80px;
+	text-align: right;
+	float: right !important;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+.admin a:first-child {
+	font-size: 18px;
+	color: #b8b8b8;
+	margin-right: 15px;
+}
+
+.admin a {
+	font-size: 18px;
+	color: #333333;
+}

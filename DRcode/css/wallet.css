@@ -1,0 +1,55 @@
+.Availableintegra:nth-child(2) span{
+	display: inline-block;
+	font-family: simsun;
+	font-size: 16px;
+	color: #666666;
+}
+.Availableintegra:nth-child(2) span img{
+	margin-right: 10px;
+}
+.Availableintegra:nth-child(2) a{
+	width: 96px;
+	height: 34px;
+	line-height: 34px;
+	background-color: #535353;
+	margin-left: 79px;
+}
+.integrallist table  tr{
+	height: 72px;
+	font-family: simsun;
+	color:#666666;
+	font-size: 16px;
+}
+.integrallist table thead tr{
+	width: 100%;
+	height: 72px;
+	font-weight: bold;
+}
+.integrallist table thead tr th{
+	text-align: left !important;
+}
+.integrallist table thead tr th:first-child{
+	width: 70px;
+}
+.integrallist table tbody tr{
+	height: 72px;
+}
+.integrallist table tbody tr td:nth-child(2){
+	padding-left: 10px;
+	font-family: simsun;
+	font-size: 16px;
+	color:#666666;
+	text-align: left;
+}
+.integrallist table tbody tr td:first-child{
+	width: 80px;
+	padding-right: 0px;
+}
+.integrallist table tbody tr{
+	height: 70px !important;
+}
+.mycollectdiv .integrallist table tr td.integerbchange{
+	font-family: "微软雅黑" !important;
+	font-size: 30px !important;
+	color: #ff0909 ;
+}

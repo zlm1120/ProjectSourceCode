@@ -1,0 +1,18 @@
+.Plogo span.carheader {
+	display: inline-block;
+	height: 145px;
+	line-height: 145px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+.Pcontain .Plogo, .Pheader{
+	width: 1000px;
+	min-width: 1000px;
+}
+.Pcontain .Plogo .PL-right{
+	margin-left: 0px;
+	padding-top: 50px;
+	padding-right: 0px;
+}

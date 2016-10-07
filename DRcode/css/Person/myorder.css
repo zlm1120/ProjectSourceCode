@@ -1,0 +1,76 @@
+label{
+	color:#666666;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+/*myorder button*/
+.btngroup button{
+	width：145px;
+	height:45px;
+	text-align: center;
+	line-height: 45px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	background-color: #EEEEEE;
+	border: 0px;
+	cursor: pointer;
+	font-weight: normal;
+}
+/*当点击了按钮之后显现的背景颜色*/
+.activebtn{
+	background-color: #3CB1F7 !important;
+	color: #FFFFFF !important; 
+}
+/*订单列表的头部的信息 tablecontent thead*/
+.tablecontent{
+	margin-top: 20px;
+	font-family: simsun;
+	font-size: 14px;
+	color: #999999;
+	font-weight: normal !important;
+}
+.tablecontent table thead{
+	background-color: #EEEEEE;
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #CCCCCC;
+}
+.tablecontent table thead th{
+	font-weight: normal;
+	text-align: center;
+}
+.tablecontent table thead th:nth-child(2){
+	width: 88px;
+}
+.tablecontent table thead th:nth-child(3){
+	width: 120px;
+}
+.tablecontent table thead th:nth-child(4){
+	width: 115px;
+}
+.tablecontent table thead th:nth-child(5){
+	width: 190px;
+}
+.tablecontent .orderinfor,.tablecontent .orderinfor{
+	width: 400px;
+}
+/*tbody  orderinfor time and id*/
+.tablecontent tbody .ordertime{
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+	background-color: #EEEEEE;
+	padding-top: 10px;
+}
+/*整体样式*/
+.tablecontent table tr{
+	border-top: 1px solid #CCCCCC;
+}
+.tablecontent table tbody tr td:first-child{
+	padding-left: 10px;
+}
+
+
+

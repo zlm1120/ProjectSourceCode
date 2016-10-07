@@ -1,0 +1,89 @@
+em,i,b{
+	font-style: normal;
+	font-weight: normal;
+}
+.activelist{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.activelist .media{
+	margin-top: 20px;
+	float: left;
+	font-family: "微软雅黑";
+	width: 585px;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 15px;
+}
+.activelist .media:nth-child(odd){
+	margin-right: 30px;
+}
+.activelist .media .media-body .media-heading{
+	color: #248BCC;
+	font-size: 24px;
+	font-weight: normal;
+}
+.activelist .media .media-body span{
+	color: #666666;
+	font-size: 14px;
+	display: block;
+	margin-top: 10px;
+}
+.activelist .media .media-body span:nth-child(2){
+	margin-bottom: 15px;
+}
+.activelist .media .media-body span:not(.activetext) em{
+	color: #333333;
+	padding-left: 17px;
+}
+.activelist .media .media-body span:not(.activetext){
+	color: #999999;
+}
+.activelist .media .media-body span:last-child{
+	font-family: simsun;
+	color: #999999;
+	font-size: 12px;
+}
+.activelist .media .media-body span:last-child i{
+	display: inline-block;
+}
+.activelist .media .media-body span:last-child i:nth-child(1){
+	border-right: 1px solid #999999;
+	padding-right:5px ;
+}
+.activelist .media .media-body span:last-child i:nth-child(2){
+	padding-left:5px ;
+}
+.activelist .media .media-body span:last-child i b{
+	color: #248BCC;
+}
+
+.activenumber{
+	height: 90px;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 90px;
+}
+.activenumber li{
+	background-color: #FFFFFF !important;
+}
+.activenumber li a{
+	font-family: simsun;
+	font-size: 12px;
+	color: #333333;
+	margin-left: 5px;
+	height: 27px;
+	text-align: center;
+}
+.activenumber li:nth-child(1) a{
+	width: 68px;
+	padding-left: 10px;
+}
+.activenumber li a:not(.numberlist){
+	border: 0px !important;
+}
+.active>a{
+	background-color:#f39800 !important;
+	color: #FFFFFF;
+}

@@ -1,0 +1,72 @@
+.storediscount{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+/*.storediscount .storediscountlist{
+	float: left;
+	width: 345px;
+	height: 185px;
+	background: url(../image/矩形-34.png) no-repeat;
+	background-size: 100%  auto;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.storediscount .storediscountlist span{
+	color: #FFFFFF;
+	font-family: "微软雅黑", impact;
+}
+
+.storediscount .storediscountlist span.discounttitle{
+	background-color: #3CB1F7;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	transform: rotate(-45deg);
+	transform-origin: 50% 150%;
+	width: 121px;
+	display: inline-block;
+}*/
+
+/*
+ * discountinfor stylw
+ */
+/*.storediscount .storediscountlist div.discountinfor{
+	border: 1px solid red;
+	overflow: hidden;
+}
+.discountinfor span:nth-child(1){
+	overflow: hidden;
+}
+.discountinfor span:nth-child(1) em{
+	display: block;
+	float: left;
+}
+.discountinfor span:nth-child(1) em:first-child{
+	font-size: 26.6px;
+	padding-left: 50px;
+}
+.discountinfor span:nth-child(1) em:last-child{
+	font-size: 70px;
+	font-family: impact;
+	line-height: 85px;
+	padding-left: 5px;
+}
+.discountinfor span:nth-child(2){
+	border: 1px solid red;
+	float: right;
+	margin-top: 30px;
+}
+.discountinfor span:nth-child(2) b{
+	display: block;
+	font-size: 20px;
+}*/
+
+.storediscount img{
+	float: left;
+	display: block;
+	margin-left: 40px;
+	width: 346px;
+	margin-bottom: 30px;
+}

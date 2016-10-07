@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>活动收藏</title>
+		<link rel="stylesheet" href="../css/comment/bootstrap.css" />
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/Person/page-header.css" />
+		<link rel="stylesheet" href="../css/Person/person-logo.css" />
+		<link rel="stylesheet" href="../css/comment/main.css" />
+		<link rel="stylesheet" href="../css/comment/footer.css" />
+
+		<link rel="stylesheet" href="../css/leftnav.css" />
+		<link rel="stylesheet" href="../css/collect.css" />
+		<script type="text/javascript" src="../js/myfunding.js" ></script>
+		<style type="text/css">
+			.sonlist span:nth-child(3){
+				font-size: 18px !important;
+				color: #333333 !important;
+				font-family: "微软雅黑" !important;
+			}
+			.sonlist span:nth-child(4){
+				color: #666666;
+				font-family: simsun;
+				font-size: 14px;
+			}
+			.sonlist div a em{
+				font-style: normal;
+				color: #3CB1F7;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="pHeader">
+			<!--page header-->
+			<div class="Pheader">
+				<div class="pselect">
+					<select>
+						<option>宜宾</option>
+					</select>
+				</div>
+				<div class="Pheader-right">
+					<ul>
+						<li>你好</li>
+						<li>请<a href="../login/login.html">【登录】</a></li>
+						<li>免费注册</li>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">积分商城</a></li>
+						<li><a href="#">我的手藏</a></li>
+						<li><a href="#">商贸城</a></li>
+						<li><a href="#">我的消息</a></li>
+						<li>
+							<a href="#"><img src="../img/login/忘记密码_03.png" style="vertical-align: middle;" />下载客户端</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--pheader end-->
+		</div>
+		<!--logo header-->
+		<div class="Pcontain">
+			<div class="Plogo">
+				<div class="Pl-left">
+				</div>
+				<div class="PL-center">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#" id="setpass">账户设置</a></li>
+						<li><a href="#">消息</a></li>
+					</ul>
+				</div>
+				<div class="PL-right">
+					<div>
+						<input type="text" class="search-text" name="q" placeholder="请输入你要搜索的内容" />
+						<input type="submit" class="search-button" value="搜索" />
+					</div>
+				</div>
+				<div class="car" style="float: right;">
+					<img src="../img/login/car.png" style="vertical-align: middle; vertical-position: center;" />我的购物车<span class="badge">3</span>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：2998511293@qq.com
+        	时间：2016-06-05
+        	描述：浏览记录的右边导航
+        -->
+		<div class="leftnavs">
+			<div class="invitationNav">
+				<div class="order"><span><a href="myorderindex.html">我的订单</a></span></div>
+				<div class="pay">
+					<span>我的资产</span>
+					<ul>
+						<li><a href="#">优惠券</a></li>
+						<li><a href="#">积分(2000)</a></li>
+						<li><a href="#">会员卡</a></li>
+						<li><a href="#">红包</a></li>
+						<li><a href="#">钱包</a></li>
+					</ul>
+				</div>
+				<div class="collect">
+					<span>我的收藏</span>
+					<ul>
+						<li><a href="#">商品收藏</a></li>
+						<li><a href="#">店铺收藏</a></li>
+						<li><a href="#">活动收藏</a></li>
+						<li><a href="">新闻收藏</a></li>
+					</ul>
+				</div>
+				<div class="crowdfunding">
+					<span>我的众筹</span>
+					<ul>
+						<li><a href="#">项目众筹</a></li>
+						<li><a href="#">产品众筹</a></li>
+						<li><a href="#">发起的众筹</a></li>
+					</ul>
+				</div>
+				<div class="code">
+					<span><a href="#">我的邀请码</a></span>
+				</div>
+				<div class="recode">
+					<span class="activecode"><a href="#">浏览记录</a></span>
+				</div>
+				<div class="merchant">
+					<span><a href="#">商家管理</a></span>
+				</div>
+			</div>
+			<!--
+            	作者：2998511293@qq.com
+            	时间：2016-06-05
+            	描述：leftnav content
+     		-->
+			<div class="mycollectdiv">
+				<span class="titlelist">我的收藏</span>
+				<div class="fundingbtngroup">
+					<a href="javascript:void(0);" class="activeclick firstclick">商品收藏(8)</a>
+					<a href="javascript:void(0);">店铺收藏(4)</a>
+					<a href="javascript:void(0);">活动收藏(5)</a>
+					<a href="javascript:void(0);">新闻收藏(8)</a>
+					<a href="javascript:void(0);">众筹收藏(4)</a>
+				</div>
+				<div class="collectdivlist">
+					<div class="sonlist firstsonlist">
+						<img src="../image/images/图层-236.png" />
+						<div style="bottom: 90px;">
+							<a href="javascript:void(0);">移除</a>
+							<a href="javascript:void(0);"><em>2133</em>人收藏</a>
+						</div>
+						<span>活动主题</span>
+						<span>活动内容介绍最多展示两行，然后 采用、、、 </span>
+					</div>
+					<div class="sonlist">
+						<img src="../image/images/图层-236.png" />
+						<div style="bottom: 90px;">
+							<a href="javascript:void(0);">移除</a>
+							<a href="javascript:void(0);"><em>2133</em>人收藏</a>
+						</div>
+						<span>活动主题</span>
+						<span>活动内容介绍最多展示两行，然后 采用、、、 </span>
+					</div>
+				</div>
+				
+			</div>
+		
+		</div>
+			<div class="footer" style="position: absolute; bottom: 0px;">
+				© 2004-2015 www.dingrenshenghuo.com.cn All Rights Reserved. 鼎仁生
+			</div>
+	</body>
+
+</html>

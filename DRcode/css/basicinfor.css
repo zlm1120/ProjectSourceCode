@@ -1,0 +1,334 @@
+.datainfor{
+	width: 1000px;
+	min-width: 1000px;
+}
+.Plogo .PL-center ul li{
+	margin-left: 30px !important;
+}
+.Plogo .PL-right input[type="text"]{
+	width: 200px !important;
+}
+.Plogo .PL-right input[type="submit"]{
+	width: 70px !important;
+	margin-left: -5px;
+}
+/*
+ * 基本信息
+ */
+.persondata div.personinfor div {
+	padding-left: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+
+div.commentlist {
+	margin-top: 10px;
+}
+
+.persondata div.personinfor div label {
+	width: 70px;
+	text-align: left;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+}
+
+.persondata .personinfor input {
+	width: 336px;
+	height: 36px;
+	line-height: 36px;
+}
+/*基本信息 生日*/
+.personinfor select {
+	margin-right: 10px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../img/个人资料-修改_03.png) no-repeat right center transparent;
+	outline: none;
+	height: 26px;
+	width: 106px;
+	line-height: 26px;
+	border: 1px solid #a0a0a0;
+	font-family: simsun;
+	font-size: 12px;
+	color: #B2B2B2;
+}
+.personinfor div.sexbox {
+	overflow: hidden;
+}
+.personinfor div.sexbox label {
+	display: block;
+	float: left;
+}
+.personinfor div.sexbox .methodimg {
+	float: left;
+}
+.methodimg {
+	overflow: hidden;
+	padding-left: 0px !important;
+}
+.methodimg div {
+	float: left;
+	padding-left: 0px !important;
+	margin-top: 0px !important;
+}
+.methodimg input[type="radio"] {
+	margin: 3px 3px 0px 5px;
+	display: none;
+}
+.methodimg label {
+	padding-left: 20px;
+	cursor: pointer;
+	background: url(../image/Ellipse-2-copy-2-拷贝.png) no-repeat left center;
+	padding-right: 10px;
+}
+.methodimg label.checked {
+	background-position: left bottom;
+	background: url(../image/images/去支付_03.png) no-repeat left center;
+}
+
+
+/*
+ * 头像
+ */
+
+.headportrait div {
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+	padding-left: 40px;
+}
+.headportrait {
+	overflow: hidden;
+}
+
+.headportrait div {
+	width: auto !important;
+	height: auto !important;
+	float: left;
+}
+
+.headportrait div i {
+	display: block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #999999;
+	font-style: normal;
+}
+
+.headportrait div a.file {
+	display: block;
+	margin-top: 33px;
+	background-color: #434343;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: simsun;
+	text-align: center;
+	height: 35px;
+	width: 201px;
+	line-height: 35px;
+}
+
+.headportrait div:nth-child(2) img:nth-child(5) {
+	margin-top: 30px;
+}
+
+.file {
+	position: relative;
+	display: inline-block;
+	background: #D0EEFF;
+	border: 1px solid #99D3F5;
+	color: #1E88C7;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 40px;
+}
+
+.file input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.file:hover {
+	text-decoration: none;
+}
+
+/*
+ * 账号绑定
+ */
+div.binding div{
+	padding-left: 40px;
+}
+div.binding em{
+	font-style: normal;
+	color: red;
+	display: none;
+}
+div.binding div label{
+	width: auto !important;
+	font-weight: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.binding div:first-child input{
+	width: 339px;
+	height: 36px;
+}
+.binding div:nth-child(2) input{
+	width: 122px !important;
+	height: 36px !important;
+}
+#member{
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: #999999 !important;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: simsun;
+	width: 120px;
+	margin: 15px 10px;
+	cursor: pointer;
+	background: url();
+}
+
+/*
+ * 收货地址
+ */
+div.Address{
+	padding-left: 40px;
+}
+div.Address div.addresscon{
+	height: auto !important;
+	overflow: hidden;
+}
+.addresscon div.address{
+	float: left;
+	background-color: #F0F0F0;
+	width: 300px;
+	height: 174px;
+}
+.addresscon div.address div{
+	overflow: hidden;
+	padding-top: 12px;
+}
+.addresscon div.address div label{
+	color: #666666;
+	font-family: simsun;
+	font-size: 14px;
+	width: 100px;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	float: left;
+}
+.addresscon div.address div span{
+	color: #333333;
+	font-size: 14px;
+	font-family: simsun;
+	width: 180px;
+	display: block;
+	float: left;
+}
+.Address div.morenadd{
+	color: #248bcc;
+	font-family: simsun;
+	font-size: 14px;
+	float: none !important;	
+	overflow: hidden;
+}
+.morenadd div{
+	overflow: hidden;
+	width: 300px;
+}
+.morenadd div:nth-child(1){
+	margin-top: 15px;
+}
+.morenadd a{
+	display: block;
+	float: left;
+	font-family: simsun;
+	font-size: 14px;
+	color: #eb6100;
+	padding-right: 5px;
+}
+.morenadd a:first-child{
+	border-right: 1px solid #eb6100;
+}
+
+.Address .addressinfor .personinfor  div label{
+	font-weight: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+	width: 76px;
+	text-align: left;
+	line-height: 36px;
+	height: 36px;
+}
+.Address .addressinfor .personinfor  div input{
+	width: 336px;
+	height: 36px;
+}
+.Address .addressinfor .personinfor div{
+	margin-top: 20px;
+}
+.Address .addressinfor .personinfor div input[type="checkbox"]{
+	margin-left: 76px;
+	height: 15px;
+	width: 15px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.Address .addressinfor .personinfor div b{
+	font-family: simsun;
+	font-size: 12px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;
+}
+.Address .addressinfor .personinfor div  button{
+	width: 122px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: simsun;
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 0px;
+	outline: none;
+}
+.bindingbutton{
+	background-color: #3CB1F7;
+	width: 119px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-family: simsun;
+	font-size: 14px;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.personaddress div:first-child{
+	margin-top: 40px !important;
+}

@@ -1,0 +1,48 @@
+.codecontent .addcontent{
+	display: block;
+    width: 375px;
+    margin: 0 auto;
+}
+.codecontent .addcontent:nth-child(6){
+	margin-top: 40px;
+	border: 1px solid #B3B3B3;
+}
+.codecontent .addcontent:nth-child(6) label{
+	display: inline-block;
+	width: 120px;
+	height: 59px;
+	text-align: center;
+	line-height: 59px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	font-weight: normal;
+}
+.codecontent .addcontent:nth-child(6) input{
+	width: 250px;
+	height: 59px;
+	border: 0px !important;
+	outline: none;
+}
+.codecontent .addcontent:nth-child(7){
+	font-family: simsun;
+	color: #666666;
+	font-size: 12px;
+	margin-top: 5px;
+	text-align: left;
+}
+.codecontent .addcontent:nth-child(8){
+	background-color: #3CB1F7;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color:#ffffff;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}

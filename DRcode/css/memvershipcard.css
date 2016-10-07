@@ -1,0 +1,61 @@
+em{
+	font-style: normal;
+}
+.mycollectdiv span.titlelist span{
+	float: right;
+	display: inline-block;
+	width: 110px;
+	height: 24px;
+	line-height: 14px;
+	text-align: center;
+	background-color: #3CB1F7;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: simsun;
+	line-height: 24px;
+	font-weight: normal;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.collectdivlist{
+	overflow: hidden;
+}
+.collectdivlist .cardlist{
+	float: left;
+	background: url(../image/矩形-39.png) no-repeat;
+	width: 330px;
+	height: 159px;
+}
+.collectdivlist .cardlist:not(.firstcard){
+	margin-left: 5px;
+}
+.collectdivlist .cardlist .media{
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.collectdivlist .cardlist .media img{
+	margin-top: 30px;
+}
+.collectdivlist .cardlist .media .media-body .media-heading{
+	font-size: 24.1px;
+	color: #0088AD;
+}
+.collectdivlist .cardlist .media .media-body div{
+	overflow: hidden;
+}
+.collectdivlist .cardlist .media .media-body span{
+	color: #0088AD;
+	font-size: 12px;
+	display: block;
+	font-weight: normal;
+}
+.collectdivlist .cardlist .media .media-body div span:nth-child(1){
+	float:left;
+}
+.collectdivlist .cardlist .media .media-body div span:nth-child(2){
+	width: 140px;
+	float: left;
+}

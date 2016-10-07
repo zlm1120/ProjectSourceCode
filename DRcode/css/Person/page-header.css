@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pHeader{
+	height: 30px;
+	background-color: #F0F0F0;
+	width: 100%;
+}
+
+.Pheader{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.Pheader div{
+	height: 30px;
+}
+.Pheader div:first-child{
+	float: left;
+}
+.Pheader div:last-child{
+	float: right;
+}
+.Pheader div:last-child ul li{
+	list-style: none;
+	float: left;
+	margin-left: 25px;
+}
+
+.Pheader div ul li a,.Pheader div ul li, .Pheader div select{
+	line-height: 30px;
+	text-decoration: none;
+	font-family: simsun;
+   	font-size: 12px;
+	color: #333333;
+}
+
+
+.Pheader div:last-child ul li:nth-child(2) a{
+	color: #248bcd !important;
+}
+
+/*去除下拉框默认的样式*/
+.pselect select{
+	appearance:none;
+   -moz-appearance:none;
+   -webkit-appearance:none;
+   background: url(../../img/login/select.png) no-repeat scroll right center transparent;
+   padding-right: 40px;
+   outline: none;
+   border: 0px !important;
+}
+.pselect select::-ms-expand { 
+	display: none; 
+}

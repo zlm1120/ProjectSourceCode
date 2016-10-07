@@ -1,0 +1,83 @@
+em,i,b{
+	font-weight: normal;
+}
+.collectdivlist{
+	overflow: hidden;
+}
+.fundingimglist:not(.firstimglist){
+	
+	margin-left: 10px;
+}
+.fundingimglist{
+	width: 243px;
+	float: left;
+	margin-top: 10px;
+}
+.fundingimglist img{
+	width: 243px;
+	display: block;
+}
+.fundingimglist span,
+.fundingimglist div.footerlist{
+	display: block;
+	margin-top: 11px;
+}
+.fundingimglist span:nth-child(2){
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #333333;
+}
+.fundingimglist span:nth-child(3){
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #E60012;
+	height: 25px;
+	line-height: 25px;
+}
+i{
+	font-style: normal;
+}
+.fundingimglist span:nth-child(3) em{
+	display: inline-block;
+	float: right;
+	font-style: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.fundingimglist span:nth-child(3) em i{
+	color: #3CB1F7 !important;
+	font-weight: bold;
+}
+
+.footerlist{
+	overflow: hidden;
+}
+.footerlist span, 
+.footerlist div.progress{
+	float: left;
+}
+.footerlist span{
+	font-size: 12px;
+	color: #666666;
+	font-family: simsun;
+	margin-right: ; 5px;
+	margin-top: 0px !important;
+}
+.footerlist span em{
+	color: #E60012;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-left: 5px;
+	font-style: normal;
+	margin-right: 4px;
+}
+.footerlist .progress{
+	width: 151px;
+	height: 10px;
+	border: 1px solid #F1A400;
+	margin-top: 5px;
+}
+.footerlist .progress .progress-bar{
+	background-color: #f1a400;
+}

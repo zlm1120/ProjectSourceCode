@@ -1,0 +1,150 @@
+/*ddetails satus*/
+.detail .status{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.detail .myordersatus, .detail .orderflow{
+	float: left;
+}
+.detail .myordersatus{
+	width: 350px;
+	height: 242px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.detail .myordersatus span{
+	padding-top: 20px;
+	display: block;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.detail .myordersatus span i{
+	font-style: normal;
+	font-family: simsun;
+	font-size: 14px;
+	color: #666666;
+}
+.detail .myordersatus b{
+	display:block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.detail .myordersatus a, .detail .myordersatus button{
+	display: inline-block;
+	font-family: simsun;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	width: 90px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-right: 10px;
+	
+}
+.detail .myordersatus a{
+	background-color: #f1a400;
+}
+
+.detail .myordersatus button{	
+	background-color: #535353;
+	border: 0px;
+	cursor: pointer;
+	outline: none;
+}
+/*订单流程*/
+.orderflow{
+	border: 1px solid #CCCCCC;
+	width: 830px;
+	height: 242px;
+	text-align: center;
+	padding-left: 20px;
+}
+.orderflow span.title{
+	height: 40px;
+	display: block;
+	color: #333333;
+	font-family: simsun;
+	font-size: 14px;
+	border-top: 2px solid  #3CB1F7;
+	width: 128px;
+	font-weight: bold;
+}
+
+.orderflow .progress{
+	overflow:visible !important;
+	margin-top: 50px;
+	background-color: #434343;
+	height: 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.orderflow .progress .progress-bar{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	float: none;
+	position: relative;
+	background-color: #3cb1f7 !important;
+}
+.orderflow .progress .progress-bar span{
+	position: absolute;
+	top: 40px;
+	color: #666666;
+	text-align: center;
+	font-family: simsun;
+	font-size: 14px;
+	width: 160px;
+	height: 60px;
+	line-height: 60px;
+	left: 0px;
+}
+
+/*收货人信息*/
+.status{
+	overflow: hidden;
+}
+.orderaccp{
+	width: 380px;
+	height: 260px;
+	padding-left: 40px;
+	overflow: hidden;
+	padding-right: 70px;
+	border: 1px solid red;
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+.orderaccp div{
+	overflow: hidden;
+	color: #999999;
+	font-family: simsun;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+}
+.orderaccp  div label{
+	width: 80px;
+	font-weight: normal;
+}
+.orderaccp div span{
+	width: 190px;
+}
+.orderaccp  div label, .orderaccp div span{
+	display: block;
+	float: left;
+	overflow: auto;
+}
+.orderaccp div.accptitle{
+	padding-bottom: 30px;
+	color: #333333 !important;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
